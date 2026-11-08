@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #003366;
+  --gold: #ffc72c;
+  --teal: #087f78;
+  --maroon: #852d35;
+  --ink: #17364e;
+  --paper: #f4f6f9;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.font-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+  body {
+    background: white !important;
+  }
+  .print-hide {
+    display: none !important;
+  }
+  .poster-sheet {
+    max-width: none !important;
+    min-height: 270mm !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+}

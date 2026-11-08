@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="id"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261103-04-5eab2a6","C":{"ABeeZee":"YADK31-VBBc,1","Abel":"YAHO2Ehol3g,0","Abhaya Libre":"YAFdJvwa-l0,0","Abril Fatface":"YACgEZbkUVE,0","Aclonica":"YAHO2OEKYj0,0","Acme":"YAHO2Gflqzo,0","Actor":"YAHO2N0IV_4,0","Adamina":"YAHO2Ko8ddg,0","Advent Pro":"YAFdJvNZdCk,0","Afacad":"YAHO2HaK_fU,0","Afacad Flux":"YAHO2DjbA6Y,0","Agrandir":"YAFdJpYuLss,0","Aileron":"YAFdJn5d8s0,0","Akshar":"YAGWNF0jApg,0","Alata":"YAD1aLikJo8,0","Albert Sans":"YAHO2HRfeh4,0","Alegreya":"YAFdJs07v-8,0","Alegreya Sans":"YAFdJvgJ5TU,0","Alegreya Sans SC":"YAFdJuaTEaM,0","Alegreya SC":"YACgEen8jXo,0","Aleo":"YAFdJg_txOU,0","Alex Brush":"YAE2gr0Mbng,0","Alexandria":"YAGVt-AWBcU,0","Alfa Slab One":"YACgEYS9sJU,0","Alice":"YALBszUSD-E,0","Allison":"YAG5KfE49h8,0","Allura":"YACgEap1YR0,0","Almarai":"YAFdJuZe0mI,0","Alumni Sans":"YAHO2DByoho,0","Amaranth":"YACgEaBTFMQ,0","Amatic SC":"YACgEbSBm0k,0","Amiri":"YAEWgjWFb1M,0","Amiri Quran":"YAHO2Enz6cg,0","Amita":"YADK309xYYo,1","Andika":"YACkoFAye4w,0","Anek Bangla":"YAGVuloYrvI,0","Anek Gujarati":"YAHO2NTD_LM,0","Anek Latin":"YAHO2C6lVnU,0","Anek Telugu":"YAHO2KVu8lI,0","Anonymous Pro":"YACgEV9owk4,0","Antic Slab":"YAHO2HJeTP0,0","Anton":"YACgEcYqQ-A,0","Antonio":"YAFdJjZxcpY,0","Anuphan":"YAHO2IhZ4E0,0","Anybody":"YAHO2MTsics,0","Aptos":"YAGi2jFvvq4,1","Arapey":"YADK32AK2Uk,1","Architects Daughter":"YACgEc9BFCs,0","Archivo":"YAHO2-t-jNE,0","Archivo Black":"YACgEZulLoA,0","Archivo Narrow":"YACgEa-oJH8,0","Aref Ruqaa":"YAHO2NMqGdM,0","Arial":"YAGyDvJ_4Ts,0","Arimo":"YACgEZ1cb1Q,0","Arsenal":"YADK3_DWcOc,0","Arvo":"YACgEf17hXM,0","Asap":"YAFdJr0OaFw,0","Asap Condensed":"YAD1fmY3NpE,0","Assistant":"YAFdtfahXt8,0","Atkinson Hyperlegible":"YAFge7Z-F6s,0","Atkinson Hyperlegible Next":"YAHO2IeQVB0,0","Audiowide":"YAHO2MsoafU,0","Avenir":"YAFcfmNq6UY,0","Azeret Mono":"YAHO2EIdDP0,0","Bacasime Antique":"YAHO2JjJq4o,0","Bad Script":"YADK31ojH6A,1","Bagel Fat One":"YAFyG3A11Bw,0","Bai Jamjuree":"YAFdJjI5olU,0","Baloo 2":"YAHO2IcQUcM,0","Baloo Bhaijaan 2":"YAHO2NwTj3Y,0","Baloo Da 2":"YAHO2LicHPY,0","Balsamiq Sans":"YAE3C_w4eo8,0","Bangers":"YAD5qTdjGKo,1","Barlow":"YAFdJsyuOPM,1","Barlow Condensed":"YAFdJljEuFc,0","Barlow Semi Condensed":"YAFdJu55qXI,0","Baskervville":"YAHO2JTYNKo,0","Beau Rivage":"YAHO2NDDGu0,0","Bebas Neue":"YACgESME5ew,0","Belanosima":"YAHO2KW8vyU,0","Bellefair":"YADSJ8TFXwA,0","Belleza":"YADK3w_fTc4,0","BenchNine":"YAHO2Gl7yMc,0","Berkshire Swash":"YACgEa7uPMI,0","Besley":"YAHO2BTXWYc,0","Bevan":"YACkoDaMIbc,0","Big Shoulders Display":"YAFdJs8L2aw,0","Birthstone":"YAGXhLyeE6I,0","Biryani":"YAFdtZ_PRAs,0","Bitter":"YACkoOF0Xck,0","BIZ UDPGothic":"YAGWY3VAK4Q,0","Black Ops One":"YACgEaY4FIU,0","Blinker":"YAFdJoBYX9o,0","Bodoni Moda":"YAHO2C7VUJE,0","Bowlby One":"YAHO2EunPos,0","Bowlby One SC":"YAHO2J38FUs,0","Bree Serif":"YACkoD1yZN0,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Bubblegum Sans":"YAHO2JdFc_U,0","Bungee":"YALBszL9wLA,0","Bungee Shade":"YACkoPYyrRk,0","Cabin":"YAFdJnEgsb0,0","Cabin Condensed":"YAHO2F-FVVw,0","Cairo":"YAFdtXpDzlQ,0","Caladea":"YAD1hHx0kVU,0","Calistoga":"YAD1aIFxe3I,1","Cambria":"YAFcfgNlM2Y,0","Cantarell":"YAHO2LSCGX4,0","Canva Sans":"YAFdJjTk5UU,1","Canva Sans Display":"YAFTjyMT8Hc,0","Caprasimo":"YAHO2PYTkbo,0","Capriola":"YALBs4liG7k,0","Cardo":"YACkoGIT9qo,0","Carlito":"YACkoIZXsrc,0","Carter One":"YACgEZJ1Flw,0","Castoro":"YAHO2cDcmVM,0","Catamaran":"YAFdJhPTLAc,0","Caveat":"YALBs2ploWQ,0","Caveat Brush":"YALBs8ZVRhw,0","Chakra Petch":"YAD1fCkY3IQ,0","Changa":"YAFdJtbG8fw,0","Changa One":"YAHO2WdsbtM,0","Chango":"YADK37RW0po,0","Charis SIL":"YAGvf-G3GGU,0","Charm":"YAD1b_s4o-w,0","Chelsea Market":"YAHO2UOd5sY,0","Chewy":"YACgEZfALnA,0","Chivo":"YAHO2WvGfDs,0","Chivo Mono":"YAHO2Qd3y5g,0","Chonburi":"YALBsz_RTwU,0","Cinzel":"YACgEeV8bIQ,0","Cinzel Decorative":"YAEe9XbWpNs,0","Climate Crisis":"YAFdJnbiwgQ,0","Comfortaa":"YAFdJoWmhxU,0","Comic Neue":"YAHO2VMiyZo,0","Commissioner":"YAHO2RRI-KE,0","Concert One":"YAFyG1vOkaw,0","Consolas":"YAFcfu6YYdE,0","Cookie":"YAHO2TxA9Mk,0","Cormorant Garamond":"YAFdJhX-538,0","Cormorant Infant":"YAHO2cgbXjc,0","Cormorant SC":"YAFdJg7KuRM,0","Cormorant Unicase":"YAHO2b4ohVo,0","Courgette":"YACgEU5nS9M,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","Cousine":"YADK35VyDYU,0","Crete Round":"YAHO2Uu9SvI,0","Crimson Pro":"YAFdJsEGkW0,0","Crimson Text":"YAHO2RsfBzg,0","Cuprum":"YACkoB3fESg,0","Cutive Mono":"YAHO2cov6H4,0","Damion":"YAHO2SxDErM,0","Dancing Script":"YALBs2pfuW0,0","Darker Grotesque":"YAD1acp_tgc,1","DejaVu Sans":"YAFdtfpl0Yc,0","Delius":"YAHO2f1B8B4,0","Dhurjati":"YAHO2RElIME,0","Didact Gothic":"YALBs-mIj2o,0","DM Mono":"YAHO2SGpw0w,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Domine":"YAHO2bbCOA4,0","Dongle":"YAGXDU1dmuc,0","Doppio One":"YAHO2ckhWaI,0","Dosis":"YAFdte3F-n0,1","DotGothic16":"YAHO2fxQNHM,0","DynaPuff":"YAFyMRnxBDs,0","East Sea Dokdo":"YAHO2V39uyM,0","Eater":"YAHO2VpLF0c,0","EB Garamond":"YAFdJtfMD6Y,0","Economica":"YACgEeIOo5w,0","Eczar":"YAFdJrnVElk,0","Edo":"YADoUIDNzaE,1","El Messiri":"YAFdJoZarj8,0","Encode Sans":"YAHO2R-vLyo,0","Encode Sans Condensed":"YAHO2RQWhbg,0","Epilogue":"YAHO2WWHRqI,0","Exo":"YACgEf2dbI4,0","Exo 2":"YAFdJor4M6A,1","Fahkwang":"YAFdJp0SJos,0","Familjen Grotesk":"YAHO2ZriIzU,0","Faustina":"YAFdJnqy8Oc,0","Figtree":"YAHO2b-mV7A,0","Fira Code":"YAFdJsxBlTg,0","Fira Mono":"YAHO2bTKfjg,0","Fira Sans":"YAFdJnJKOPE,0","Fira Sans Condensed":"YAHMLJN-FcA,0","Fira Sans Extra Condensed":"YAHMLGqUb6Q,0","Fjalla One":"YAHO2VMyTKw,0","Fondamento":"YAHO2X_okmA,0","Forum":"YACgEcnnqB4,0","Fragment Mono":"YAHO2ZlYXZc,0","Francois One":"YADK3zbC6RM,0","Frank Ruhl Libre":"YAFdJiGIKxQ,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Fugaz One":"YAHO2f5L5K0,0","Funnel Display":"YAHO2TmVuEs,0","Funnel Sans":"YAHO2R0FK5U,0","Futura":"YAFcfgcNhWk,3","Gabarito":"YAHO2cD3JmI,0","Gaegu":"YAFdJj615Ls,0","Gantari":"YAHO2WveuBo,0","Garamond":"YAFcfhlhK9c,0","Geist":"YAHO2SfKS30,0","Geist Mono":"YAHO2XOe8v8,0","Gelasio":"YAHO2e426-k,0","Gentium Book Plus":"YAHO2b-adyU,0","Geologica":"YAHMLpZ3y5c,0","Geom":"YAHMLFz7unQ,0","Georama":"YAHO21l9KR8,0","Georgia":"YAGzXkO0pEM,0","GFS Didot":"YADK39vXpyU,0","Gilda Display":"YADK34sD2QM,0","Gilroy":"YAFcf0f10mQ,0","Gloock":"YAHO2WVhd0Q,0","Gloria Hallelujah":"YALBs50JjRs,0","Gochi Hand":"YACgEWWPgRQ,0","Goldman":"YAHO2TATES8,0","Golos Text":"YAHO2QlqAQk,0","Google Sans":"YAHO2dYZ4Uw,0","Google Sans Code":"YAHO2XdQwlA,0","Google Sans Flex":"YAHO2e8mtck,0","Gotham":"YAFcfr0ZwUA,0","Goudy Bookletter 1911":"YAHO2X7CqQQ,0","Gowun Batang":"YAGXDQtk-ic,0","Gowun Dodum":"YAGXDZ921io,0","Graduate":"YACgEajwz7Y,0","Grandstander":"YAHO2bN2hd8,0","Gravitas One":"YAHO2WtqHRw,0","Great Vibes":"YACgEX27qLg,0","Grenze":"YAFdJpFWOZM,0","Gruppo":"YACgEbcz8MU,0","Gudea":"YAHO2WlVs30,0","Hahmlet":"YAGXDTqs4Ac,0","Hammersmith One":"YACgEWNFnT4,0","Handlee":"YAHO2U9C-xI,0","Hanken Grotesk":"YAHO2VB9G0I,0","Heebo":"YAFdJqqaebw,0","Helvetica":"YAFcf7zkXN0,0","Hind Guntur":"YAFdJq1FbIc,0","Hind Madurai":"YAFdJtsMgQk,0","Hind Siliguri":"YAFdJodBWQk,0","Hind Vadodara":"YAFdJrnuAas,0","HK Grotesk":"YAFdJsjyMsM,0","Homemade Apple":"YADK3zBTjLs,0","Host Grotesk":"YAHO2VztvdY,0","Hubot Sans":"YAHO2cDVt0E,0","Huninn":"YAHO2dG1YxU,0","Ibarra Real Nova":"YAD1aDS1Jq8,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","IBM Plex Sans Arabic":"YAGVuEYCNg0,1","IBM Plex Sans Condensed":"YAFdJrPBof8,0","IBM Plex Sans JP":"YAGWY6rvaqo,0","IBM Plex Sans KR":"YAGXDbUrwEo,0","IBM Plex Sans Thai":"YAFdJkdZC28,0","IBM Plex Serif":"YAFdJt16xgA,0","IM Fell English":"YAHO2QB0QVo,0","IM Fell English SC":"YACgERmrc6I,0","IM Fell French Canon":"YAHO2bMvABs,0","Impact":"YAFcfnjI7Vk,0","Inclusive Sans":"YAGzRvSP2H0,0","Inconsolata":"YAHO2SpO-5g,0","Indie Flower":"YAHO2aaUih8,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Inter Tight":"YAHO2Wv04Hw,0","Istok Web":"YAHO2XNFLkI,0","Italiana":"YAHO2Toik_w,0","Italianno":"YADK33wZXP4,1","Itim":"YAE0Z3ly4AQ,0","Jacques Francois":"YAHO2a5g66Q,0","Jersey 10":"YAHO2QXCPBA,0","Jersey 25":"YAHO2b0HdSo,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Josefin Slab":"YACgEQmaEIc,0","Jost":"YAHO2TSelXg,0","Jua":"YADK3-gZSDU,0","Julius Sans One":"YACgET-7cBI,0","Jura":"YAFdJmtyccY,0","Kaisei Decol":"YAGWY5xJxfk,0","Kalam":"YAFdJrEg2ic,0","Kanit":"YAHO2TvSf7E,0","Kantumruy Pro":"YAHO2SVqwqY,0","Karla":"YAHO2V2NSXM,0","Kaushan Script":"YACgEbGmrJs,0","Khand":"YAFdJm18w3g,0","Khula":"YAFdJvaOkWI,0","Kiwi Maru":"YAFdJmm1njU,0","Klee One":"YAHO2dadxts,0","Knewave":"YACgEYSBEEA,0","Kodchasan":"YAFdJmfmzeo,0","Kosugi Maru":"YAEhL82apSM,0","Krub":"YAFdJl9ACwk,0","Kumbh Sans":"YAHO2UjzjpM,0","La Belle Aurore":"YAHO2QKdLHU,0","Lalezar":"YACkoB188Y0,0","Lato":"YAFdJuFCnaw,0","League Gothic":"YACgEZ1OEPI,0","League Spartan":"YACgEcnJpjs,0","Leckerli One":"YAGX4ddZAAg,0","Lemonada":"YAFdtQVfQCk,0","Lexend":"YAHO2SCkHoU,0","Lexend Deca":"YAD9UdTHECk,0","Lexend Exa":"YAD9UUZHL7I,0","Lexend Giga":"YAD9UYAqrOc,0","Lexend Mega":"YAD9UdrjgZw,0","Lexend Zetta":"YAD9UYrErMw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Bodoni":"YAHO2fbN094,0","Libre Caslon Display":"YAHO2XhLmt0,0","Libre Caslon Text":"YAHO2USylHk,0","Libre Franklin":"YAFdJr3SNlU,1","Lilita One":"YACgEblklxo,0","Limelight":"YACgEUpkTXE,0","LINE Seed JP":"YAHO2d8yXa4,0","Literata":"YAD1b0SpOHQ,0","Lobster":"YAD8SnSjSFI,0","Lobster Two":"YACgEesdoec,0","Londrina Solid":"YAFdJnyMeQE,0","Lora":"YACgEXvxf8Q,0","Luckiest Guy":"YADK4PnlFRs,0","Lusitana":"YAHO2SveFfM,0","LXGW WenKai TC":"YAHO2ehQ5_o,0","M PLUS 1p":"YAHO2fozO7I,0","M PLUS 2":"YAHO2RUGZcQ,0","Ma Shan Zheng":"YAD1b3yES34,0","Mada":"YAFd-HxC1Y0,0","Maitree":"YAFdJh4v5pY,0","Mali":"YAFdJh7OuNE,0","Manrope":"YAHO2b2feC4,0","Mansalva":"YAD1aZCCYU8,1","Marcellus":"YADK4L2nGbg,0","Marck Script":"YALBs9DBETo,0","Martel":"YAFdtY7FRH8,1","Martian Mono":"YAHO2YhUMkk,0","Mate":"YAHO2eaPuMk,0","Maven Pro":"YAFdJgCyb_c,0","Mea Culpa":"YAHO2UQx4WU,0","MedievalSharp":"YAHO2XoH9qQ,0","Megrim":"YACgEQu0pLY,0","Meiryo":"YAGmJPEz0BM,0","Merienda":"YAGXhISLJkY,0","Merriweather":"YACgEXvHxxs,0","Merriweather Sans":"YAFdJorZgto,1","Michroma":"YADK4IYX8vY,0","Mitr":"YAFdJh-DKf0,0","Mona Sans":"YAHO2XGz2BM,0","Monda":"YADK34lACd0,1","Monoton":"YALBs_hWWG8,0","Mont":"YAFdJgul-2U,0","Montserrat":"YAFdtQi73Xs,0","Montserrat Alternates":"YAHO2d5URdI,0","Mooli":"YAHO2QudnvU,0","More Sugar":"YAFdJkVWBPo,1","Mountains of Christmas":"YAHO2f6R-YA,0","Mr Dafoe":"YACgEbw4BXM,0","Mrs Saint Delafield":"YAHO2Tnt53k,0","Ms Madi":"YAHO2SBc4rI,0","Mukta":"YAFdJjsZaSM,0","Muli":"YAFdtZAC0Mk,0","Mulish":"YAHO28rytyw,0","Nanum Myeongjo":"YAFdJqiu4VY,0","Neucha":"YAEkTBQffFg,0","Neuton":"YAFdtcDBvdA,0","New Rocker":"YAHO2YI8rWg,0","News Cycle":"YACkoEMGWek,0","Nothing You Could Do":"YAHO2WqRm_c,0","Noticia Text":"YACkoDm0xlE,0","Noto Color Emoji":"YAGumpcTCok,0","Noto Kufi Arabic":"YACkoGW2dTA,0","Noto Naskh Arabic":"YACkoI8Oj1c,0","Noto Nastaliq Urdu":"YAGU_Q5u0w4,0","Noto Sans":"YACkoCjjZNk,0","Noto Sans Bengali":"YAFdJjnhMdI,0","Noto Sans Devanagari":"YAFdJnKmmqM,0","Noto Sans Display":"YAHO2eyZBeY,0","Noto Sans Ethiopic":"YAHO20DfUMM,0","Noto Sans Georgian":"YACkoFKxqWs,0","Noto Sans HK":"YAHO2fCytzw,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans Khmer":"YACkoFdRIJM,0","Noto Sans KR":"YAGsojZj-RQ,0","Noto Sans Lao":"YAHO2f6jVpw,0","Noto Sans Lao Looped":"YAHO2TSQjpA,0","Noto Sans Malayalam":"YACkoMzSo98,0","Noto Sans Mono":"YAHO2TFVtN0,0","Noto Sans Myanmar":"YACkoPHEdMk,0","Noto Sans SC":"YAHO2hDCDFM,0","Noto Sans Sinhala":"YACkoJiU_Ak,0","Noto Sans Symbols":"YAHO2n0Zh0w,0","Noto Sans Tamil":"YAHO2r9jkew,0","Noto Sans TC":"YAHO2pzGHBE,0","Noto Sans Telugu":"YAHO2uFAQs4,0","Noto Serif":"YACkoGNq-XY,0","Noto Serif Bengali":"YAGVuu_j8c8,0","Noto Serif Devanagari":"YAGWNWUpY9s,0","Noto Serif Display":"YAFdJllHsUM,0","Nunito":"YAFdJoNRMmU,1","Nunito Sans":"YAFdtQJYB9w,1","Old Standard TT":"YAHO2lhtDcg,0","Oleo Script":"YACgEQQ14jI,0","Onest":"YAHO2kaArOY,0","Open Sans":"YAFdJt8dAY0,1","Open Sans Condensed":"YAD7Rf0lmm4,1","Open Sans Hebrew":"YAFdJlARYMY,0","Optima":"YAFcf0Fltlg,0","Orbit":"YAFyMQm0Z54,0","Orbitron":"YAHO2tXXH_o,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Overpass":"YAFdJhmdIMM,1","Oxanium":"YAHO2kINDn0,0","Oxygen":"YAHO2nOU31A,0","Pacifico":"YADLjORQ1u4,0","Pangolin":"YADK4DH4-fM,0","Parisienne":"YACgERSYqTw,0","Parkinsans":"YAHO2j-ZSEo,0","Passion One":"YAFdJo9cFec,0","Pathway Gothic One":"YACkoMQo7Mc,0","Patrick Hand":"YAHO2swKcgg,0","Patua One":"YAHO2qRZWLE,0","Paytone One":"YALBs8J6By4,0","Permanent Marker":"YACgEcB-r-s,0","Petrona":"YADK4PUbnVg,1","Philosopher":"YAEkTCvkg7Q,0","Pinyon Script":"YACgEQzTJgs,0","Pirata One":"YALBs3j2Xx0,0","Pixelify Sans":"YAHO2v5ARTA,0","Play":"YADK4EFto8o,0","Playball":"YAHO2hWLQJ0,0","Playfair Display":"YAFdJhem5V8,1","Playfair Display SC":"YACgESE7eJQ,0","Playwrite VN":"YAHO2_bSM7Y,0","Plus Jakarta Sans":"YAHO2gdhi18,0","Poiret One":"YAHO2nweLas,0","Pontano Sans":"YAHO2t91rWw,0","Poppins":"YAFdJjbTu24,1","Prata":"YACgES4qGnk,0","Press Start 2P":"YAFyGr-8pmQ,0","Pridi":"YAFdJmJ3gqA,0","Prompt":"YAFdJmA6sOY,0","Proxima Nova":"YAFcfjveRFU,0","Proxima Nova Condensed":"YAFcfiSm_SA,0","Proza Libre":"YAHO2nv0NKc,0","PT Mono":"YAHO2lnK_7w,0","PT Sans":"YACgEYbsV-E,0","PT Sans Caption":"YAHO2oZpTQc,0","PT Sans Narrow":"YAHO2glZymI,0","PT Serif":"YACgEcU7Qg4,0","Public Sans":"YAFdJj8NdaU,1","Pyidaungsu":"YACkoGGC7sA,0","Quantico":"YAHO2me4bVc,0","Quattrocento":"YACgEcL5b3s,0","Quattrocento Sans":"YAHO2vuaC0Y,0","Questrial":"YADK4LSvvyE,1","Quicksand":"YAFdJpYtCxE,1","Racing Sans One":"YACgEbcqMPM,0","Radio Canada":"YAHO2qxyljs,0","Radio Canada Big":"YAHO2r7P8wg,0","Rajdhani":"YAFdJoWaWgo,0","Raleway":"YAFdJhmxbVQ,1","Ramabhadra":"YACkoN_hhSs,0","Rammetto One":"YAHO2nAqWuQ,0","Rasa":"YAFdJg-9rGY,0","Readex Pro":"YAGVt3RBO3c,0","Recursive":"YAHO2oZn01g,0","Red Hat Display":"YAD1bzs0p0Y,0","Red Hat Mono":"YAHO2gB0kV8,0","Red Hat Text":"YAHO21kkNWg,0","Reddit Sans":"YAHO2kKAR-8,0","Reem Kufi":"YADSJ0ceOYQ,0","Reenie Beanie":"YAHO2s4qTnk,0","Rethink Sans":"YAHO2q9_FzY,0","Righteous":"YAHO2oo4-So,0","Roboto":"YACgEev4gKc,0","Roboto Condensed":"YACgEan-tYE,0","Roboto Flex":"YAHO2nqK4E8,0","Roboto Mono":"YAFdJkvp3-k,0","Roboto Slab":"YAFdJswIKAg,0","Rock Salt":"YAHO2vFSVxE,0","Rockwell":"YAFcfyVZnN0,0","Rokkitt":"YAFdJnlBl3o,0","Ropa Sans":"YACkoCA_LhY,0","Rowdies":"YAFyL2wl4FI,0","Rozha One":"YACkoMIfZVA,0","Rubik":"YAFdJsMWVVc,0","Rubik Dirt":"YAFyHRD_ZDY,0","Rubik Mono One":"YAHO2qtMuC0,0","Rubik Wet Paint":"YAHO2mLD_X0,0","Ruda":"YAFdJuuBNyM,1","Rye":"YACgEdQP21k,0","Sacramento":"YACgEf5ivwU,0","Saira":"YAFdJk33d3s,0","Saira Condensed":"YAFdJuBuAxg,0","Saira Extra Condensed":"YAFdJiQUvWc,0","Saira Semi Condensed":"YAHO2gfd5g8,0","Saira Stencil One":"YAD1aV1l2HE,0","Sanchez":"YACgEbBJLy8,0","Sarabun":"YAFdJssSnME,0","Sarala":"YADK4LF5xeY,0","Satisfy":"YACgEf5XTk0,0","Sawarabi Mincho":"YAD1faq7yjk,0","Scheherazade New":"YAHO2sxcjiY,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe Script":"YAF3uTF1s5I,0","Segoe UI":"YAHNdRD1Klw,0","Sen":"YAHO2h5vrRE,0","Shadows Into Light":"YAHO2tztN1k,0","Share Tech":"YAHO2q4NPs0,0","Share Tech Mono":"YAHO2oHio98,0","Shippori Mincho":"YAGWZNRJkO8,0","Shippori Mincho B1":"YAGWZJnXF8c,0","Shrikhand":"YACkoEA0Kc0,0","Signika":"YACgEfiK7GI,0","Signika Negative":"YAHO2rWYEng,0","Silkscreen":"YAHO2rdlQ_o,0","Skranji":"YAHO2uPivlQ,0","Slabo 13px":"YAHO2hvaP1I,0","Slabo 27px":"YAHO2n--yeE,0","Smooch Sans":"YAHO2tPdb20,0","Sniglet":"YACgEUJSCy8,0","Sofia":"YAHO2kq3qHg,0","Sofia Sans":"YAHMLUINeco,0","Sofia Sans Condensed":"YAHMLQmSo-Y,0","Sofia Sans Extra Condensed":"YAHMLV0fp0c,0","Sora":"YAHO2rDTR1E,0","Sorts Mill Goudy":"YADK4Fi0R2c,0","Source Code Pro":"YAHO2tzIJbg,0","Source Sans 3":"YAG4lO1Mj10,0","Source Sans Pro":"YACgEQzTv38,0","Source Serif Pro":"YACgEfdj394,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Special Elite":"YACgEYVlm9Q,0","Special Gothic Expanded One":"YAHO2oaS0m0,0","Spectral":"YAHO2rVUHIM,0","Spline Sans":"YAHO2rZC9CE,0","Squada One":"YADK4PDlAAM,0","Sriracha":"YALBs4sJbXs,0","Staatliches":"YAD1bzJCL-s,0","Stardos Stencil":"YADK4Mu_Xj0,1","STIX Two Text":"YAHO2joycuk,0","Suez One":"YACkoJMi7_c,0","Syncopate":"YAHO2iXpgDY,0","Syne":"YAHML9oLRPc,0","Tahoma":"YAFcfipOFgg,0","Tajawal":"YAFdJg45t1g,0","Tangerine":"YADK4L8oUVI,0","Taviraj":"YAFdJjquxqU,0","Teko":"YAFdJsF6lbU,0","Tektur":"YAHMLdkk1tM,0","Tenor Sans":"YACgEVY5j_w,0","Tilt Warp":"YAHO2uqld84,0","Times New Roman":"YAGzXW3gftg,0","Tinos":"YACkoJyNZF4,0","Tiro Bangla":"YAGVuiG7jnE,0","Tiro Devanagari Hindi":"YAGWNCjUq0o,0","Titan One":"YAHO2v8eA3A,0","Titillium Web":"YAFdtTOE9xo,0","Tomorrow":"YAFdJlW65k4,0","Traditional Arabic":"YAGLszSchGc,0","Trebuchet MS":"YAFcfrglpVA,0","Trocchi":"YACgEV-yq04,0","Turret Road":"YAHO2pKQLYQ,0","Ubuntu":"YACgERDU--Q,0","Ubuntu Condensed":"YAHO2nCaahY,0","Ubuntu Mono":"YAHO2g6B-Uo,0","Ubuntu Sans":"YAHO2kypvWc,0","Ultra":"YACgEWHSPx0,0","Unbounded":"YAHO2rkdmWY,0","Unica One":"YALBs74Pdjc,0","UnifrakturCook":"YAHO2srzKxY,0","UnifrakturMaguntia":"YACgEZRHDPA,0","Unna":"YADK4PtOh7E,0","Urbanist":"YAHO2o1IFy0,0","Varela":"YAHO2gPi4IU,0","Varela Round":"YALBs2IK6rw,0","Vazirmatn":"YAHO2z1lH5c,0","Verdana":"YAGzXTctYtQ,0","Vidaloka":"YACgEdRnAX0,0","Viga":"YAHO2v8Lzbg,0","Volkhov":"YAHO2uWq-qg,0","Vollkorn":"YAFdJli9wSA,0","VT323":"YACgEYI9BCI,0","Wix Madefor Display":"YAHO2o-Qfis,0","Wix Madefor Text":"YAHO2rU16Qc,0","Work Sans":"YAGXhLOKv44,0","Yanone Kaffeesatz":"YAFdtbpuM0E,0","Yantramanav":"YAFdJuZAcfY,0","Yatra One":"YACkoJ228Ho,0","Yellowtail":"YACgEYG4kG4,0","Yeseva One":"YALBs4GWnJw,0","Ysabeau":"YAHMLjcdG48,0","Ysabeau Office":"YAHO2uUYDYI,0","Yuji Boku":"YAFGHcN5e_Y,0","Yusei Magic":"YAEhL8RNAMk,0","Zain":"YAHO2lC1Xkw,0","Zalando Sans":"YAHO2k5OK-M,0","Zalando Sans Expanded":"YAHO2h6OPds,0","Zen Kaku Gothic Antique":"YAHO2u8F_xk,0","Zen Kaku Gothic New":"YAHO2tS_yps,0","Zen Maru Gothic":"YAFdJgMrcdw,0","Zen Old Mincho":"YAHO2tMwaEs,0","Zeyada":"YAHO2lP62P0,0","Zilla Slab":"YAFdJpPotmI,0"}}');</script><script src="/_sdk/640c2c9485552aa0.telemetry_sdk.js" integrity="sha512-x7sJNwBS9reCVXham9nBdUp9EtXT/bbNZQpT1cWbDa+n6qr1jm8WdBMFUK+gVfm5CtLZVOtKSGRXT0C+rD4Hdw=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal CBT — SMP Insan Teladan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&amp;family=Work+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#003366;--gold:#ffc72c;--teal:#087f78;--ink:#17364e;--paper:#f4f6f9}
+    *{box-sizing:border-box}body{margin:0;font-family:"Work Sans",sans-serif;color:var(--ink)}
+    .app-wrapper{width:100%;min-height:calc(100 * min(var(--vh, 1vh), 1vh))}
+    .view[hidden],.module[hidden],.tab-panel[hidden]{display:none!important}
+    .home{min-height:calc(100 * min(var(--vh, 1vh), 1vh));background:radial-gradient(circle at 85% 10%,#1e6486,transparent 40%),linear-gradient(160deg,#003366,#001e39);color:white}
+    .home-inner{max-width:680px;min-height:calc(100 * min(var(--vh, 1vh), 1vh));margin:auto;padding:48px 24px 34px;display:flex;flex-direction:column;align-items:center;text-align:center}
+    .crest{width:230px;height:250px;max-width:100%;object-fit:contain}
+    .display{font-family:Fraunces,serif;line-height:1.15}
+    .home-actions{width:100%;display:grid;gap:14px;margin-top:auto;padding-top:40px}
+    .shell{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:calc(100 * min(var(--vh, 1vh), 1vh))}
+    .sidebar{background:var(--navy);color:white;padding:25px 14px}
+    .sidebar nav{position:sticky;top:18px;display:grid;gap:5px}
+    .nav-btn{width:100%;text-align:left;border-radius:10px;padding:12px 14px;color:white;font-weight:700}
+    .nav-btn:hover,.nav-btn.active{background:#235d88}
+    .content{min-width:0;background:var(--paper);padding:clamp(18px,3vw,40px)}
+    .content-inner{max-width:1160px;margin:auto}
+    .panel{background:white;border:1px solid #dce6ed;border-radius:18px;box-shadow:0 9px 28px #0033660a}
+    .panel-pad{padding:clamp(18px,2.4vw,28px)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;border-radius:10px;padding:10px 17px;font-weight:700;text-align:center;transition:transform .18s}
+    .btn:hover{transform:translateY(-2px)}.primary{background:var(--navy);color:white}.soft{background:#e8eef4;color:var(--navy)}.teal{background:var(--teal);color:white}.danger{background:#a83c43;color:white}
+    .field{width:100%;min-height:45px;border:1px solid #b7c7d5;border-radius:10px;background:white;padding:10px 12px;color:var(--ink)}
+    .participant-select{position:relative;z-index:5;display:block;visibility:visible;opacity:1;background:#fff;color:#17364e;border:2px solid #7d9ab0;box-shadow:0 3px 10px #00336618;appearance:auto}
+    .participant-select option{background:#fff;color:#17364e}
+    .field:focus{outline:3px solid #ffc72c88;border-color:var(--navy)}
+    label{display:block;font-weight:700;margin-bottom:6px}
+    .table-wrap{overflow-x:auto}.data-table{width:100%;min-width:650px;border-collapse:collapse;text-align:left}
+    .data-table th,.data-table td{padding:12px 13px;border-bottom:1px solid #e2e9ef;vertical-align:top}
+    .data-table th{background:#edf2f6;color:var(--navy);font-weight:700}
+    .eyebrow{letter-spacing:.15em;text-transform:uppercase;font-size:12px;font-weight:800}
+    .muted{color:#60758a}.status-pill{display:inline-block;border-radius:999px;padding:5px 10px;background:#e8eef4;color:var(--navy);font-weight:700}
+    .tab-btn{padding:11px 16px;border-radius:10px;background:#e8eef4;color:var(--navy);font-weight:700}
+    .tab-btn[aria-selected=true],.class-btn[aria-pressed=true]{background:var(--navy);color:white}
+    .poster-bg{background:#e9edf0;padding:20px}.poster-sheet{width:100%;max-width:794px;min-height:1122px;margin:18px auto;background:white;box-shadow:0 16px 45px #0033662a;display:flex;flex-direction:column}
+    .qr-frame{width:min(100%,350px);aspect-ratio:1;border:6px solid var(--navy);display:grid;place-items:center;text-align:center;padding:24px}
+    button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    button:disabled{opacity:.55;cursor:wait}
+    @media(max-width:850px){.shell{display:block}.sidebar{padding:14px}.sidebar nav{position:static;display:flex;overflow-x:auto;gap:6px}.nav-btn{width:auto;flex:none;white-space:nowrap}.content{padding:20px 14px}}
+    @media(max-width:500px){.poster-bg{padding:8px}.poster-sheet{min-height:0}.home-inner{padding-top:30px}}
+    @media print{@page{size:A4 portrait;margin:10mm}body{background:white!important}body>*{display:none!important}body .app-wrapper{display:block!important}body .app-wrapper>section,body .app-wrapper>.shell{display:none!important}body .app-wrapper>#poster-view{display:block!important;padding:0!important;background:white!important}body .print-hide{display:none!important}.poster-sheet{max-width:none;min-height:270mm;margin:0;box-shadow:none}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/8fed440c6f94b5da.data_sdk.js" type="text/javascript" integrity="sha512-hrvcCCJ6nkL5gG3mdqPDbgyAf9a/fg/zBF51sU5N3rM1WmeSu8K36+6wn9TZeAZrLIonoaPBeVyFsXxXxZjq0w=="></script>
+  <script src="/_sdk/1d09db124ea3a9b1.editing_sdk.js" type="text/javascript" integrity="sha512-nFeeI/QmX1A8OBOk5omXaF81Dpds9VlDBQh73zXx5SL9MSdRn36W7SVJgA17wgxTyAXxb/qblWwpGDdd2L9YpQ=="></script>
+  <script src="/_sdk/dfeb017e55db4863.resizing_sdk.js" type="text/javascript" integrity="sha512-kbPBNN/FAxsctln1jqNvXyIdF7mIhQx0C+eGGC2IF3mNjNZZcftDT1wFztswSSk4KXRWYHIC3uA9NMfJV4IVUw=="></script>
+ </head>
+ <body data-template-id="__page-root" class="w-full" style="background: rgb(244, 246, 249);">
+  <main class="app-wrapper">
+   <section id="home-view" class="view home" aria-labelledby="home-title">
+    <div class="home-inner"><img data-template-id="school-logo" class="canva-image crest" loading="lazy" src="canva://MAHZw9zi4Vo/1" alt="Logo SMP Insan Teladan">
+     <p data-template-id="home-school" class="canva-text eyebrow mt-7" style="color: rgb(255, 199, 44); font-weight: 700; font-style: normal; font-size: 16px;">SMP INSAN TELADAN</p>
+     <h1 id="home-title" data-template-id="home-title" class="canva-text display mt-5 font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 32px;">PORTAL CBT — SMP INSAN TELADAN</h1>
+     <div class="my-6 h-1 w-20 rounded bg-[#ffc72c]" aria-hidden="true"></div>
+     <p data-template-id="home-subtitle" class="canva-text" style="color: rgb(214, 232, 243); font-weight: 400; font-style: normal; font-size: 16px;">Sistem CBT Mandiri Sekolah</p>
+     <div class="home-actions"><button type="button" data-view="student" data-template-id="student-entry" class="canva-button btn primary w-full min-h-16" style="background: rgb(0, 51, 102); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 16px;">MASUK SEBAGAI SISWA</button> <button type="button" id="admin-entry" data-view="dashboard" data-template-id="admin-entry" class="canva-button btn w-full min-h-16 bg-[#852d35] text-white" style="background: rgb(133, 45, 53); color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 16px;">MASUK SEBAGAI GURU</button>
+     </div>
+     <footer class="mt-8">
+      <p data-template-id="home-footer" class="canva-text" style="color: rgb(200, 220, 232); font-weight: 400; font-style: normal; font-size: 12px;">SMP Insan Teladan © 2026</p>
+     </footer>
+    </div>
+   </section>
+   <section id="student-view" class="view bg-white" aria-labelledby="student-title" hidden="">
+    <header class="bg-[#003366] text-white">
+     <div class="mx-auto max-w-5xl px-5 py-8"><button type="button" data-view="home" data-template-id="student-back" class="canva-button btn soft mb-6" style="background: rgb(232, 238, 244); color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">← Kembali ke beranda</button>
+      <h1 id="student-title" data-template-id="student-title" class="canva-text font-extrabold" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 32px;">PORTAL UJIAN CBT MANDIRI</h1>
+      <p data-template-id="student-subtitle" class="canva-text mt-2" style="color: rgb(214, 232, 243); font-weight: 400; font-style: normal; font-size: 16px;">Pilih kelas dan periksa jadwal ujian hari ini.</p>
+     </div>
+    </header>
+    <div class="mx-auto max-w-5xl px-5 py-8">
+     <section aria-labelledby="class-heading">
+      <h2 id="class-heading" data-template-id="class-heading" class="canva-text font-extrabold" style="color: rgb(0, 51, 102); font-weight: 800; font-style: normal; font-size: 24px;">PILIH KELAS</h2><label data-template-id="class-select-label" class="canva-text" for="class-select" style="font-weight: 700; font-style: normal; font-size: 16px;">Pilih Kelas</label> <select id="class-select" data-template-id="class-select" class="canva-input field mt-2" aria-label="Pilih Kelas" style="background: rgb(255, 255, 255); color: rgb(23, 54, 78); font-weight: 400; font-size: 16px;"> <option value="">Pilih Kelas</option><option value="7">Kelas 7</option><option value="8">Kelas 8</option><option value="9">Kelas 9</option> </select>
+     </section>
+     <section class="panel panel-pad mt-7" aria-labelledby="student-schedule-heading">
+      <div class="flex flex-wrap items-end justify-between gap-2">
+       <div>
+        <h2 id="student-schedule-heading" data-template-id="student-schedule-heading" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 700; font-style: normal; font-size: 24px;">JADWAL UJIAN</h2>
+        <p id="student-time" class="muted mt-2" aria-live="polite"></p>
+       </div><span id="selected-class" class="status-pill">Kelas 7</span>
+      </div>
+      <div id="student-cards" class="mt-5 grid gap-3"></div>
+      <p data-template-id="exam-disclosure" class="canva-text muted mt-5" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">Jadwal dan status diperbarui menurut waktu WIB. Tombol masuk ujian aktif hanya saat jadwal Aktif dan link HTTPS tersedia.</p>
+     </section>
+    </div>
+   </section>
+   <div id="admin-shell" class="view shell" hidden="">
+    <aside data-template-id="admin-sidebar" class="canva-sidebar sidebar" style="background: rgb(0, 51, 102);">
+     <p data-template-id="sidebar-school" class="canva-text px-3 font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">SMP INSAN TELADAN</p>
+     <p data-template-id="sidebar-caption" class="canva-text px-3 pb-6 pt-1" style="color: rgb(255, 199, 44); font-weight: 400; font-style: normal; font-size: 12px;">CBT MASTER CONTROL</p>
+     <nav aria-label="Navigasi admin"><button type="button" data-view="dashboard" data-template-id="nav-dashboard" class="canva-button nav-btn active" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Dashboard</button> <button type="button" data-view="master" data-template-id="nav-master" class="canva-button nav-btn" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Data Master</button> <button type="button" data-view="schedule" data-template-id="nav-schedule" class="canva-button nav-btn" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Jadwal &amp; Sesi</button> <button type="button" data-view="poster" data-template-id="nav-poster" class="canva-button nav-btn" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Poster QR Exambro</button> <button type="button" id="admin-lock" data-view="home" data-template-id="nav-lock" class="canva-button nav-btn mt-4 border border-white/40" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Keluar &amp; kunci panel</button>
+     </nav>
+    </aside>
+    <div class="content">
+     <div class="content-inner">
+      <p id="notice" class="mb-5 rounded-xl border-l-4 border-[#ffc72c] bg-[#fff6d8] p-4" role="status" aria-live="polite">Menghubungkan ke Canva Sheet…</p>
+      <section id="dashboard-module" class="module" aria-labelledby="dashboard-title">
+       <header>
+        <p class="eyebrow muted">SMP INSAN TELADAN / PANEL ADMIN</p>
+        <h1 id="dashboard-title" data-template-id="dashboard-title" class="canva-text mt-3 font-extrabold" style="color: rgb(0, 51, 102); font-weight: 800; font-style: normal; font-size: 32px;">PORTAL UJIAN SEKOLAH</h1>
+        <p data-template-id="dashboard-system" class="canva-text muted mt-2" style="color: rgb(96, 117, 138); font-weight: 700; font-style: normal; font-size: 16px;">SISTEM CBT-SPINDAN</p>
+        <p data-template-id="dashboard-subtitle" class="canva-text muted mt-2" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">PANEL ADMIN &amp; PENGAWAS</p>
+        <p data-template-id="dashboard-access-note" class="canva-text muted mt-2" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">Silakan masukkan kata sandi akses untuk masuk ke dashboard.</p>
+       </header>
+       <div class="mt-7 grid gap-4 sm:grid-cols-3">
+        <article class="panel panel-pad">
+         <h2 data-template-id="stat-teachers-label" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">Guru / Mapel</h2>
+         <p id="stat-teachers" class="mt-3 text-3xl font-extrabold">—</p>
+        </article>
+        <article class="panel panel-pad">
+         <h2 data-template-id="stat-schedules-label" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">Jadwal tersedia</h2>
+         <p id="stat-schedules" class="mt-3 text-3xl font-extrabold">—</p>
+        </article>
+        <article class="panel panel-pad">
+         <h2 data-template-id="stat-time-label" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">Waktu sekolah</h2>
+         <p id="stat-time" class="mt-3 font-extrabold">—</p>
+        </article>
+       </div>
+       <div class="panel panel-pad mt-5">
+        <h2 data-template-id="dashboard-links" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">Akses cepat</h2>
+        <div class="mt-4 flex flex-wrap gap-3"><button type="button" data-view="master" data-template-id="quick-master" class="canva-button btn soft" style="background: rgb(232, 238, 244); color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">Data Master →</button> <button type="button" data-view="schedule" data-template-id="quick-schedule" class="canva-button btn soft" style="background: rgb(232, 238, 244); color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">Jadwal &amp; Sesi →</button> <button type="button" data-view="poster" data-template-id="quick-poster" class="canva-button btn soft" style="background: rgb(232, 238, 244); color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">Poster QR →</button>
+        </div>
+       </div>
+       <aside class="mt-5 rounded-xl border-l-4 border-[#ffc72c] bg-[#fff6d8] p-5">
+        <p data-template-id="security-note" class="canva-text" style="color: rgb(89, 71, 22); font-weight: 400; font-style: normal; font-size: 16px;">Akses panel dibuka langsung tanpa verifikasi. Ini bukan perlindungan keamanan penuh; jangan gunakan untuk menyimpan data rahasia atau sebagai pengaman ujian resmi.</p>
+       </aside>
+      </section>
+      <section id="master-module" class="module" aria-labelledby="master-title" hidden="">
+       <header>
+        <h1 id="master-title" data-template-id="master-title" class="canva-text font-extrabold" style="color: rgb(0, 51, 102); font-weight: 800; font-style: normal; font-size: 32px;">DATA MASTER CBT</h1>
+        <p data-template-id="master-subtitle" class="canva-text muted mt-2" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">Kelola siswa dan guru/mapel. Identitas siswa tersimpan tidak dapat ditampilkan kembali pada halaman ini.</p>
+       </header>
+       <div class="mt-6 flex flex-wrap gap-2" role="tablist" aria-label="Kategori data master"><button type="button" role="tab" data-tab="students" aria-selected="true" aria-controls="students-panel" data-template-id="tab-students" class="canva-tabs tab-btn" style="font-weight: 700; font-style: normal; font-size: 16px;">DATA SISWA</button> <button type="button" role="tab" data-tab="teachers" aria-selected="false" aria-controls="teachers-panel" data-template-id="tab-teachers" class="canva-tabs tab-btn" style="font-weight: 700; font-style: normal; font-size: 16px;">DATA GURU &amp; MAPEL</button>
+       </div>
+       <div id="students-panel" role="tabpanel" class="tab-panel panel panel-pad mt-4">
+        <h2 data-template-id="students-heading" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">Tambah siswa</h2>
+        <form id="student-form" class="mt-4 grid gap-3 sm:grid-cols-2">
+         <div>
+          <label data-template-id="student-nisn-label" class="canva-text" for="student-nisn" style="font-weight: 400; font-style: normal; font-size: 16px;">NISN</label><input id="student-nisn" class="field" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" required="">
+         </div>
+         <div>
+          <label data-template-id="student-name-label" class="canva-text" for="student-name" style="font-weight: 400; font-style: normal; font-size: 16px;">Nama lengkap</label><input id="student-name" class="field" required="">
+         </div>
+         <div>
+          <label data-template-id="student-class-label" class="canva-text" for="student-class" style="font-weight: 400; font-style: normal; font-size: 16px;">Kelas</label><select id="student-class" class="field" required=""><option value="">Pilih kelas</option><option>7A</option><option>7B</option><option>8A</option><option>8B</option><option>9A</option><option>9B</option></select>
+         </div>
+         <div>
+          <label data-template-id="student-absence-label" class="canva-text" for="student-absence" style="font-weight: 400; font-style: normal; font-size: 16px;">Nomor absen</label><input id="student-absence" class="field" inputmode="numeric" pattern="[0-9]{1,3}" required="">
+         </div><button type="submit" data-template-id="save-student" class="canva-button btn primary sm:col-span-2" style="background: rgb(0, 51, 102); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Simpan siswa ke Canva Sheet</button>
+        </form>
+        <div class="mt-7 flex flex-wrap items-center gap-3"><button type="button" id="student-template" data-template-id="student-template-button" class="canva-button btn soft" style="background: rgb(232, 238, 244); color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">Unduh template CSV siswa</button> <label data-template-id="student-csv-label" class="canva-text mb-0" for="student-csv" style="font-weight: 400; font-style: normal; font-size: 16px;">Pilih CSV siswa</label> <input id="student-csv" type="file" accept=".csv,text/csv" class="field max-w-xs"> <button type="button" id="import-students" data-template-id="import-students-button" class="canva-button btn teal" style="background: rgb(8, 127, 120); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Impor CSV siswa</button>
+        </div>
+        <p data-template-id="student-table-note" class="canva-text muted mt-7" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">Data siswa dari Canva Sheet ditampilkan di tabel berikut. Jika belum ada, tabel akan menampilkan status kosong.</p>
+        <div class="table-wrap mt-3">
+         <table class="data-table">
+          <caption class="sr-only">
+           Siswa contoh
+          </caption>
+          <thead>
+           <tr>
+            <th>NISN</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>Absen</th>
+           </tr>
+          </thead>
+          <tbody id="student-rows"></tbody>
+         </table>
+        </div>
+       </div>
+       <div id="teachers-panel" role="tabpanel" class="tab-panel panel panel-pad mt-4" hidden="">
+        <h2 data-template-id="teachers-heading" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">Tambah guru dan mata pelajaran</h2>
+        <form id="teacher-form" class="mt-4 grid gap-3 sm:grid-cols-2">
+         <div>
+          <label data-template-id="teacher-name-label" class="canva-text" for="teacher-name" style="font-weight: 400; font-style: normal; font-size: 16px;">Nama guru</label><input id="teacher-name" class="field" required="">
+         </div>
+         <div>
+          <label data-template-id="teacher-subject-label" class="canva-text" for="teacher-subject" style="font-weight: 400; font-style: normal; font-size: 16px;">Mata pelajaran</label><input id="teacher-subject" class="field" required="">
+         </div><button type="submit" data-template-id="save-teacher" class="canva-button btn primary sm:col-span-2" style="background: rgb(0, 51, 102); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Simpan guru / mapel</button>
+        </form>
+        <div class="mt-7 flex flex-wrap items-center gap-3"><button type="button" id="teacher-template" data-template-id="teacher-template-button" class="canva-button btn soft" style="background: rgb(232, 238, 244); color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">Unduh template CSV guru</button> <label data-template-id="teacher-csv-label" class="canva-text mb-0" for="teacher-csv" style="font-weight: 400; font-style: normal; font-size: 16px;">Pilih CSV guru</label> <input id="teacher-csv" type="file" accept=".csv,text/csv" class="field max-w-xs"> <button type="button" id="import-teachers" data-template-id="import-teachers-button" class="canva-button btn teal" style="background: rgb(8, 127, 120); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Impor CSV guru</button>
+        </div>
+        <div class="table-wrap mt-6">
+         <table class="data-table">
+          <caption class="sr-only">
+           Daftar guru dan mata pelajaran
+          </caption>
+          <thead>
+           <tr>
+            <th>No</th>
+            <th>Nama Guru</th>
+            <th>Mata Pelajaran</th>
+            <th>Aksi</th>
+           </tr>
+          </thead>
+          <tbody id="teacher-rows"></tbody>
+         </table>
+        </div>
+       </div>
+       <aside class="panel panel-pad mt-5">
+        <h2 data-template-id="sync-title" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">Sinkronisasi data</h2>
+        <p data-template-id="sync-note" class="canva-text muted mt-2" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">Muat ulang data Canva Sheet. Tidak ada tautan Google Sheets yang tersedia pada halaman ini; tombol ini tidak menghubungkan Google Sheets.</p><button type="button" id="sync-data" data-template-id="sync-button" class="canva-button btn teal mt-4" style="background: rgb(8, 127, 120); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Muat ulang dari Canva Sheet</button>
+       </aside>
+      </section>
+      <section id="schedule-module" class="module" aria-labelledby="schedule-title" hidden="">
+       <header>
+        <h1 id="schedule-title" data-template-id="schedule-title" class="canva-text font-extrabold" style="color: rgb(0, 51, 102); font-weight: 800; font-style: normal; font-size: 32px;">JADWAL &amp; SESI UJIAN CBT</h1>
+        <p data-template-id="schedule-subtitle" class="canva-text muted mt-2" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">Contoh periode 30 Oktober–3 November 2026. Status waktu mengikuti WIB.</p>
+       </header>
+       <div class="mt-6 grid gap-5 xl:grid-cols-[.85fr_1.15fr]">
+        <section class="panel panel-pad" aria-labelledby="new-schedule-heading">
+         <h2 id="new-schedule-heading" data-template-id="new-schedule-heading" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">BUAT JADWAL BARU</h2>
+         <form id="schedule-form" class="mt-5 grid gap-4">
+          <div>
+           <label data-template-id="schedule-subject-label" class="canva-text" for="schedule-subject" style="font-weight: 400; font-style: normal; font-size: 16px;">Mata pelajaran</label><select id="schedule-subject" class="field" required=""><option value="">Pilih mata pelajaran</option><option>Etika Syariah Islam</option><option>Kewirausahaan</option><option>Seni Budaya &amp; Prakarya</option><option>Matematika</option><option>Bahasa Jawa</option><option>Bahasa Inggris</option><option>PAI-BP</option><option>Bahasa Arab</option><option>BTA Tahfidz</option><option>Sains</option><option>PJOK</option><option>Informatika</option><option>Bahasa Indonesia</option><option>IPA</option><option>IPS</option><option>Pendidikan Pancasila</option></select>
+          </div>
+          <div>
+           <label data-template-id="schedule-class-label" class="canva-text" for="schedule-class" style="font-weight: 400; font-style: normal; font-size: 16px;">Kelas</label><select id="schedule-class" class="field" required=""><option value="">Pilih kelas</option><option value="7">7</option><option value="8">8</option><option value="9">9</option></select>
+          </div>
+          <div>
+           <label data-template-id="schedule-date-label" class="canva-text" for="schedule-date" style="font-weight: 400; font-style: normal; font-size: 16px;">Tanggal ujian</label><input id="schedule-date" type="date" class="field" required="">
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+           <div>
+            <label data-template-id="schedule-start-label" class="canva-text" for="schedule-start" style="font-weight: 400; font-style: normal; font-size: 16px;">Jam mulai</label><input id="schedule-start" type="time" value="07:30" class="field" required="">
+           </div>
+           <div>
+            <label data-template-id="schedule-end-label" class="canva-text" for="schedule-end" style="font-weight: 400; font-style: normal; font-size: 16px;">Jam selesai</label><input id="schedule-end" type="time" value="09:30" class="field" required="">
+           </div>
+          </div>
+          <div>
+           <label data-template-id="schedule-session-label" class="canva-text" for="schedule-session" style="font-weight: 400; font-style: normal; font-size: 16px;">Sesi</label><select id="schedule-session" class="field"><option>Sesi 1</option><option>Sesi 2</option><option>Sesi 3</option></select>
+          </div>
+          <div>
+           <label data-template-id="schedule-exam-url-label" class="canva-text" for="schedule-exam-url" style="font-weight: 400; font-style: normal; font-size: 16px;">Link ujian</label><input id="schedule-exam-url" type="url" class="field" placeholder="https://..." aria-describedby="schedule-exam-url-help">
+           <p id="schedule-exam-url-help" class="muted mt-1 text-sm">Opsional. Link hanya aktif saat jadwal berstatus Aktif.</p>
+          </div><button type="submit" data-template-id="save-schedule" class="canva-button btn primary" style="background: rgb(0, 51, 102); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Simpan jadwal ke Canva Sheet</button>
+         </form>
+        </section>
+        <section class="panel panel-pad" aria-labelledby="schedule-list-heading">
+         <h2 id="schedule-list-heading" data-template-id="schedule-list-heading" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 24px;">DAFTAR JADWAL</h2>
+         <p data-template-id="schedule-status-note" class="canva-text muted mt-2" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">Buka/tutup hanya berlaku pada tampilan saat ini. Hapus menghapus jadwal tersimpan dari Canva Sheet.</p>
+         <p id="schedule-data-status" class="mt-3 rounded-lg border border-[#dce6ed] bg-[#f7fafc] p-3 text-sm" role="status" aria-live="polite">Memuat jadwal dari Canva Sheet…</p>
+         <div class="table-wrap mt-5">
+          <table class="data-table">
+           <caption class="sr-only">
+            Jadwal ujian
+           </caption>
+           <thead>
+            <tr>
+             <th>Tanggal</th>
+             <th>Mapel</th>
+             <th>Kelas / sesi</th>
+             <th>Jam WIB</th>
+             <th>Status</th>
+             <th>Aksi</th>
+            </tr>
+           </thead>
+           <tbody id="schedule-rows"></tbody>
+          </table>
+         </div>
+        </section>
+       </div>
+      </section>
+     </div>
+    </div>
+   </div>
+   <section id="poster-view" class="view poster-bg" aria-labelledby="poster-title" hidden="">
+    <div class="print-hide mx-auto flex max-w-[794px] flex-wrap gap-3"><button type="button" data-view="dashboard" data-template-id="poster-back" class="canva-button btn soft" style="background: rgb(232, 238, 244); color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">← Kembali ke dashboard</button> <button type="button" id="print-poster" data-template-id="poster-print" class="canva-button btn primary" style="background: rgb(0, 51, 102); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Cetak poster A4</button>
+    </div>
+    <article class="poster-sheet">
+     <header data-template-id="poster-header" class="canva-header bg-[#003366] px-7 py-12 text-center text-white" style="background: rgb(0, 51, 102);">
+      <p data-template-id="poster-school" class="canva-text eyebrow" style="color: rgb(255, 199, 44); font-weight: 400; font-style: normal; font-size: 16px;">SMP INSAN TELADAN</p>
+      <h1 id="poster-title" data-template-id="poster-title" class="canva-text mt-4 font-extrabold" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 32px;">KARTU AKSES UJIAN CBT</h1>
+     </header>
+     <div class="flex flex-1 flex-col items-center px-7 py-10 text-center">
+      <div data-template-id="qr-frame" class="canva-panel qr-frame" style="background: rgb(255, 255, 255);">
+       <p data-template-id="qr-placeholder" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 700; font-style: normal; font-size: 16px;"><span data-template-id="qr-placeholder-title" class="canva-text" style="color: rgb(0, 51, 102); font-weight: 700; font-style: normal; font-size: 16px;">AREA QR RESMI</span><br>
+         Masukkan QR portal ujian resmi melalui Canva sebelum mencetak.</p>
+      </div>
+      <h2 data-template-id="poster-instruction" class="canva-text mt-8 font-extrabold" style="color: rgb(0, 51, 102); font-weight: 800; font-style: normal; font-size: 24px;">SCAN QR MENGGUNAKAN APLIKASI EXAMBRO</h2>
+      <ol class="mt-8 grid w-full max-w-xl gap-4 text-left">
+       <li data-template-id="poster-step-1" class="canva-text rounded-xl border p-4" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">1. Scan QR resmi menggunakan Exambro.</li>
+       <li data-template-id="poster-step-2" class="canva-text rounded-xl border p-4" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">2. Pilih kelas dan periksa jadwal ujian.</li>
+       <li data-template-id="poster-step-3" class="canva-text rounded-xl border p-4" style="color: rgb(0, 51, 102); font-weight: 400; font-style: normal; font-size: 16px;">3. Ikuti petunjuk pengawas sekolah.</li>
+      </ol>
+      <p data-template-id="poster-warning" class="canva-text muted mt-8" style="color: rgb(96, 117, 138); font-weight: 400; font-style: normal; font-size: 16px;">QR belum tersedia. Jangan bagikan poster ini sebagai akses ujian sebelum QR resmi ditambahkan.</p>
+     </div>
+     <footer data-template-id="poster-footer" class="canva-footer bg-[#e6f5ef] px-7 py-6 text-center" style="background: rgb(230, 245, 239);">
+      <p data-template-id="poster-footer-text" class="canva-text font-bold" style="color: rgb(0, 51, 102); font-weight: 700; font-style: normal; font-size: 16px;">SMP Insan Teladan · Ujian CBT 2026</p>
+     </footer>
+    </article>
+   </section>
+  </main>
+  <script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const sampleSchedules = [
+    {id:'sample-1',schedule_date:'2026-10-30',subject_name:'Bahasa Indonesia',schedule_class:'7',schedule_session:'Sesi 1',schedule_start:'07:30',schedule_end:'09:30',schedule_open:true},
+    {id:'sample-2',schedule_date:'2026-10-30',subject_name:'Pendidikan Agama',schedule_class:'8',schedule_session:'Sesi 1',schedule_start:'07:30',schedule_end:'09:30',schedule_open:true},
+    {id:'sample-3',schedule_date:'2026-10-31',subject_name:'Matematika',schedule_class:'7',schedule_session:'Sesi 1',schedule_start:'07:30',schedule_end:'09:30',schedule_open:true},
+    {id:'sample-4',schedule_date:'2026-11-01',subject_name:'IPA',schedule_class:'8',schedule_session:'Sesi 1',schedule_start:'07:30',schedule_end:'09:30',schedule_open:true},
+    {id:'sample-5',schedule_date:'2026-11-02',subject_name:'Bahasa Inggris',schedule_class:'9',schedule_session:'Sesi 1',schedule_start:'07:30',schedule_end:'09:30',schedule_open:true},
+    {id:'sample-6',schedule_date:'2026-11-03',subject_name:'IPS',schedule_class:'9',schedule_session:'Sesi 1',schedule_start:'07:30',schedule_end:'09:30',schedule_open:true}
+  ];
+  const sampleTeachers = [];
+  let backendRecords = [], loaded = false, selectedClass = '7', participantVerified = false, loadTimer;
+  const localOpen = new Map(), rowNodes = new Map();
+  const formatter = new Intl.DateTimeFormat('id-ID',{timeZone:'Asia/Jakarta',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'});
+  function nowWib(){
+    const pieces = Object.fromEntries(formatter.formatToParts(new Date()).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
+    return {date:`${pieces.year}-${pieces.month}-${pieces.day}`, time:`${pieces.hour}:${pieces.minute}`,label:`${pieces.day}/${pieces.month}/${pieces.year} ${pieces.hour}:${pieces.minute} WIB`};
+  }
+  function notice(text){$('notice').textContent=text;}
+  function showView(view){
+    $('home-view').hidden=view!=='home';$('student-view').hidden=view!=='student';$('poster-view').hidden=view!=='poster';
+    $('admin-shell').hidden=!['dashboard','master','schedule'].includes(view);
+    for(const id of ['dashboard','master','schedule']) $(id+'-module').hidden=view!==id;
+    document.querySelectorAll('.nav-btn').forEach(el=>el.classList.toggle('active',el.dataset.view===view));
+    if(view==='student'||view==='schedule'||view==='dashboard') render();
+    if(view==='student'||view==='schedule') initialize();
+    window.scrollTo(0,0);
+  }
+  $('admin-entry').addEventListener('click',event=>{event.preventDefault();showView('dashboard');});
+  $('admin-lock').addEventListener('click',event=>{event.preventDefault();showView('home');});
+  document.querySelectorAll('[data-view]').forEach(el=>{if(el.id!=='admin-entry')el.addEventListener('click',()=>showView(el.dataset.view));});
+  $('class-select').addEventListener('change',event=>{
+    selectedClass=event.currentTarget.value;
+    $('selected-class').textContent=selectedClass?'Kelas '+selectedClass:'Pilih kelas';
+    renderStudent();
+  });
+  document.querySelectorAll('[data-tab]').forEach(el=>el.addEventListener('click',()=>{
+    document.querySelectorAll('[data-tab]').forEach(tab=>tab.setAttribute('aria-selected',String(tab===el)));
+    $('students-panel').hidden=el.dataset.tab!=='students';$('teachers-panel').hidden=el.dataset.tab!=='teachers';
+  }));
+  function normalizeClass(value){const text=String(value??'').trim().toUpperCase().replace(/[._-]/g,' ').replace(/\s+/g,'');const roman={VII:'7',VIII:'8',IX:'9'};const match=text.match(/(?:KELAS)?(7|8|9)$/);return match?match[1]:(roman[text]||'');}
+  function field(record,names){const wanted=names.map(name=>name.toLowerCase().replace(/[ _-]/g,''));const key=Object.keys(record||{}).find(k=>wanted.includes(k.toLowerCase().replace(/[ _-]/g,'')));return key?record[key]:'';}
+  function schedules(){return backendRecords.filter(r=>String(field(r,['record_type','type'])).toLowerCase()==='schedule'||field(r,['schedule_id','schedule date','tanggal','subject','mata pelajaran','kelas'])).map(r=>({...r,schedule_class:field(r,['schedule_class','class','kelas']),subject_name:field(r,['subject_name','subject','mata pelajaran']),schedule_date:field(r,['schedule_date','date','tanggal']),schedule_start:field(r,['schedule_start','start','jam mulai']),schedule_end:field(r,['schedule_end','end','jam selesai']),schedule_session:field(r,['schedule_session','session','sesi']),schedule_open:field(r,['schedule_open','open']),id:r.__backendId||r.schedule_id})).filter(r=>normalizeClass(r.schedule_class)).sort((a,b)=>String(a.schedule_date).localeCompare(String(b.schedule_date))||String(a.schedule_start).localeCompare(String(b.schedule_start)));}
+  function isOpen(r){return localOpen.has(r.id)?localOpen.get(r.id):r.schedule_open;}
+  function status(r){
+    const date=String(r.schedule_date||'').trim();
+    const start=String(r.schedule_start||'').trim();
+    const end=String(r.schedule_end||'').trim();
+    if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!/^\d{2}:\d{2}$/.test(start)||!/^\d{2}:\d{2}$/.test(end))return 'Belum aktif';
+    const current=nowWib();
+    const nowKey=`${current.date}T${current.time}`;
+    const startKey=`${date}T${start}`;
+    const endKey=`${date}T${end}`;
+    if(nowKey<startKey)return 'Belum aktif';
+    if(nowKey<=endKey)return 'Aktif';
+    return 'Selesai';
+  }
+  function adminScheduleStatus(r){
+    const date=String(r.schedule_date||'').trim();
+    const start=String(r.schedule_start||'').trim();
+    const end=String(r.schedule_end||'').trim();
+    if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!/^\d{2}:\d{2}$/.test(start)||!/^\d{2}:\d{2}$/.test(end))return 'Belum aktif';
+    const current=nowWib();
+    const nowKey=`${current.date}T${current.time}`;
+    const startKey=`${date}T${start}`;
+    const endKey=`${date}T${end}`;
+    if(nowKey<startKey)return 'Belum aktif';
+    if(nowKey<=endKey)return 'Aktif';
+    return 'Selesai';
+  }
+  function cell(text){const td=document.createElement('td');td.textContent=String(text??'—');return td;}
+  function renderStudent(){
+    const clock=nowWib();$('student-time').textContent=`Sekarang: ${clock.label}`;
+    const list=$('student-cards');list.replaceChildren();
+    if(!selectedClass){const p=document.createElement('p');p.className='muted';p.textContent='Pilih kelas untuk melihat jadwal ujian.';list.append(p);return;}
+    const matches=schedules().filter(r=>normalizeClass(r.schedule_class)===selectedClass);
+    if(!matches.length){const p=document.createElement('p');p.className='muted';p.textContent='Belum ada jadwal ujian untuk kelas ini';list.append(p);return;}
+    matches.forEach(r=>{
+      const card=document.createElement('article');card.className='rounded-2xl border-l-4 border-[#087f78] bg-[#eef8f7] p-5';
+      const title=document.createElement('h3');title.className='font-bold text-[#003366]';title.textContent=r.subject_name;
+      const info=document.createElement('p');info.className='mt-2';info.textContent=`${r.schedule_date} · ${r.schedule_start}–${r.schedule_end} WIB · ${r.schedule_session}`;
+      const badge=document.createElement('span');
+      const currentStatus=status(r);
+      const statusClass=currentStatus==='Aktif'?'bg-[#087f78] text-white':currentStatus==='Selesai'?'bg-[#a83c43] text-white':'bg-[#e8eef4] text-[#60758a]';
+      badge.className='status-pill mt-3 '+statusClass;badge.textContent=currentStatus;
+      const examLink=document.createElement('a');
+      examLink.className='btn teal mt-3';examLink.textContent='Masuk ujian';examLink.target='_blank';examLink.rel='noopener noreferrer';
+      const examUrl=String(r.schedule_exam_url||'').trim();
+      const linkEnabled=currentStatus==='Aktif'&&/^https:\/\//i.test(examUrl);
+      if(linkEnabled){examLink.href=examUrl;}else{examLink.removeAttribute('href');examLink.setAttribute('aria-disabled','true');examLink.classList.add('opacity-50','pointer-events-none');examLink.textContent=examUrl?'Ujian belum aktif':'Link ujian belum tersedia';}
+      card.append(title,info,badge,examLink);list.append(card);
+    });
+  }
+  function renderStudents(){
+    const body=$('student-rows');
+    const students=backendRecords.filter(r=>r.record_type==='student');
+    body.replaceChildren();
+    if(!students.length){
+      const row=document.createElement('tr');const message=document.createElement('td');message.colSpan=4;message.className='muted';message.textContent='Belum ada data siswa tersimpan di Canva Sheet.';row.append(message);body.append(row);return;
+    }
+    students.forEach(r=>{const row=document.createElement('tr');[r.student_nisn,r.student_name,r.student_class,r.student_absence_number].forEach(value=>row.append(cell(value)));body.append(row);});
+  }
+  function renderTeachers(){
+    const body=$('teacher-rows');    const teachers=backendRecords.filter(r=>r.record_type==='teacher').map(r=>({...r,id:r.__backendId}));
+    body.replaceChildren();
+    if(!teachers.length){
+      const row=document.createElement('tr');const message=document.createElement('td');message.colSpan=4;message.className='muted';message.textContent='Data guru dan mata pelajaran belum tersedia di Canva Sheet. Tambahkan data, lalu muat ulang.';row.append(message);body.append(row);
+    }
+    const ids=new Set();
+    teachers.forEach((r,index)=>{
+      ids.add(r.id);let row=rowNodes.get('t:'+r.id);
+      if(!row){row=document.createElement('tr');row.append(cell(index+1),cell(r.teacher_name),cell(r.subject_name));const action=cell('');
+        if(r.__backendId){const button=document.createElement('button');button.type='button';button.className='btn danger';button.textContent='Hapus';button.addEventListener('click',()=>deleteRecord(r.__backendId,button));action.append(button);}
+        else action.textContent='Contoh';
+        row.append(action);rowNodes.set('t:'+r.id,row);body.append(row);
+      }else{row.children[0].textContent=index+1;row.children[1].textContent=r.teacher_name;row.children[2].textContent=r.subject_name;}
+    });
+    for(const [key,row] of rowNodes)if(key.startsWith('t:')&&!ids.has(key.slice(2))){row.remove();rowNodes.delete(key);}
+    const select=$('schedule-subject'),current=select.value;
+    const subjects=['Etika Syariah Islam','Kewirausahaan','Seni Budaya & Prakarya','Matematika','Bahasa Jawa','Bahasa Inggris','PAI-BP','Bahasa Arab','BTA Tahfidz','Sains','PJOK','Informatika','Bahasa Indonesia','IPA','IPS','Pendidikan Pancasila'];
+    select.replaceChildren(new Option('Pilih Mata Pelajaran',''),...subjects.map(name=>new Option(name,name)));
+    if(!teachers.length) notice('Data guru dan mata pelajaran belum tersedia di Canva Sheet. Tambahkan data pada Canva Sheet, lalu muat ulang.');
+    if(subjects.includes(current))select.value=current;
+    $('stat-teachers').textContent=String(teachers.length);
+  }
+  function renderSchedules(){
+    const body=$('schedule-rows'),clock=nowWib(),ids=new Set();
+    const rows=schedules();
+    const scheduleStatus=$('schedule-data-status');
+    if(scheduleStatus) scheduleStatus.textContent=loaded ? `Berhasil membaca ${rows.length} jadwal dari Canva Sheet.` : 'Memuat jadwal dari Canva Sheet…';
+    rows.forEach(r=>{
+      ids.add(r.id);let row=rowNodes.get('s:'+r.id);
+      if(!row){
+        row=document.createElement('tr');
+        for(let i=0;i<5;i++)row.append(cell(''));
+        const actions=cell('');
+        const examLink=document.createElement('a');examLink.className='btn teal mb-1';examLink.target='_blank';examLink.rel='noopener noreferrer';examLink.textContent='Masuk ujian';
+        const linkEditor=document.createElement('div');linkEditor.className='grid gap-1';
+        const linkInput=document.createElement('input');linkInput.type='url';linkInput.className='field';linkInput.placeholder='https://...';linkInput.value=String(r.schedule_exam_url||'');linkInput.setAttribute('aria-label','Link ujian untuk '+String(r.subject_name||'jadwal'));
+        const saveLink=document.createElement('button');saveLink.type='button';saveLink.className='btn soft';saveLink.textContent='Simpan link';
+        saveLink.addEventListener('click',async event=>{
+          const value=linkInput.value.trim();
+          if(value&&!/^https:\/\//i.test(value)){notice('Link ujian harus menggunakan alamat HTTPS yang valid.');return;}
+          const record=backendRecords.find(item=>item.__backendId===r.__backendId);
+          if(!record){notice('Jadwal tidak tersedia lagi.');return;}
+          const control=event.currentTarget;control.disabled=true;
+          try{const result=await window.dataSdk.update({...record,schedule_exam_url:value});if(!result.isOk){notice('Link ujian gagal disimpan. Periksa Canva Sheet lalu coba lagi.');return;}notice('Link ujian berhasil disimpan ke Canva Sheet.');}
+          catch{notice('Link ujian gagal disimpan. Periksa Canva Sheet lalu coba lagi.');}
+          finally{control.disabled=false;}
+        });
+        linkEditor.append(linkInput,saveLink);actions.append(examLink,linkEditor);
+        if(r.__backendId){const remove=document.createElement('button');remove.type='button';remove.className='btn danger';remove.textContent='Hapus';remove.addEventListener('click',()=>deleteRecord(r.__backendId,remove));actions.append(remove);}
+        row.append(actions);rowNodes.set('s:'+r.id,row);body.append(row);
+      }
+      [r.schedule_date,r.subject_name,`Kelas ${r.schedule_class} · ${r.schedule_session}`,`${r.schedule_start}–${r.schedule_end}`,adminScheduleStatus(r)].forEach((value,i)=>row.children[i].textContent=value);
+      const rowStatus=adminScheduleStatus(r),examUrl=String(r.schedule_exam_url||'').trim(),examLink=row.children[5].querySelector('a');
+      const linkEnabled=rowStatus==='Aktif'&&/^https:\/\//i.test(examUrl);
+      examLink.textContent=linkEnabled?'Masuk ujian':examUrl?'Ujian belum aktif':'Link ujian belum tersedia';
+      examLink.classList.toggle('opacity-50',!linkEnabled);examLink.classList.toggle('pointer-events-none',!linkEnabled);examLink.setAttribute('aria-disabled',String(!linkEnabled));
+      if(linkEnabled)examLink.href=examUrl;else examLink.removeAttribute('href');
+    });
+    for(const [key,row] of rowNodes)if(key.startsWith('s:')&&!ids.has(key.slice(2))){row.remove();rowNodes.delete(key);}
+    $('stat-schedules').textContent=String(rows.length);
+    $('stat-time').textContent=clock.label;
+  }
+  function render(){renderStudents();renderTeachers();renderSchedules();renderStudent();}
+  const handler={onDataChanged(data){clearTimeout(loadTimer);loaded=true;backendRecords=data;participantVerified=false;render();notice('Data Canva Sheet siap. Periksa kembali data peserta untuk melihat jadwal terbaru.');}};
+  async function initialize(button=null){
+    loaded=false;notice(button?'Memuat ulang data dari Canva Sheet…':'Menghubungkan ke Canva Sheet…');clearTimeout(loadTimer);
+    if(button)button.disabled=true;
+    loadTimer=setTimeout(()=>{if(!loaded)notice('Data belum dapat dimuat. Gunakan “Muat ulang dari Canva Sheet” untuk mencoba kembali.');},8000);
+    try{
+      const result=await window.dataSdk.init(handler);
+      if(!result.isOk){clearTimeout(loadTimer);notice(`Gagal membaca jadwal dari Canva Sheet. Baris terbaca: ${backendRecords.length}.`);const status=$('schedule-data-status');if(status)status.textContent=`Gagal membaca jadwal dari Canva Sheet. Baris terbaca: ${backendRecords.length}. Tekan “Muat ulang jadwal” untuk mencoba lagi.`;}
+    }catch{clearTimeout(loadTimer);notice('Canva Sheet tidak tersedia. Coba muat ulang data.');const status=$('schedule-data-status');if(status)status.textContent='Canva Sheet tidak tersedia. Jadwal belum dapat dibaca. Tekan “Muat ulang dari Canva Sheet” untuk mencoba lagi.';}
+    finally{if(button)button.disabled=false;}
+  }
+  $('sync-data').addEventListener('click',event=>initialize(event.currentTarget));
+  function limit(){if(backendRecords.length>=999){notice('Batas 999 baris Canva Sheet tercapai. Hapus baris yang tidak diperlukan.');return true;}return false;}
+  async function createRecord(record,button){
+    if(!loaded){notice('Tunggu hingga Canva Sheet selesai dimuat.');return false;}
+    if(limit())return false;
+    button.disabled=true;
+    try{
+      const result=await window.dataSdk.create(record);
+      if(!result.isOk){notice('Penyimpanan tidak dapat dikonfirmasi. Periksa Canva Sheet sebelum mencoba lagi.');return false;}
+      notice('Data berhasil disimpan ke Canva Sheet.');return true;
+    }catch{notice('Penyimpanan tidak dapat dikonfirmasi. Periksa Canva Sheet sebelum mencoba lagi.');return false;}
+    finally{button.disabled=false;}
+  }
+  async function deleteRecord(id,button){
+    const record=backendRecords.find(r=>r.__backendId===id);
+    if(!record){notice('Baris tidak tersedia lagi.');return;}
+    button.disabled=true;
+    try{
+      const result=await window.dataSdk.delete(record);
+      if(!result.isOk){notice('Penghapusan tidak dapat dikonfirmasi. Periksa Canva Sheet sebelum mencoba lagi.');return;}
+      button.closest('tr')?.remove();notice('Baris berhasil dihapus dari Canva Sheet.');
+    }catch{notice('Penghapusan tidak dapat dikonfirmasi. Periksa Canva Sheet sebelum mencoba lagi.');}
+    finally{button.disabled=false;}
+  }
+  $('student-form').addEventListener('submit',async event=>{
+    event.preventDefault();
+    const form=event.currentTarget;
+    if(!form.reportValidity())return;
+    const button=event.submitter;
+    const record={record_type:'student',student_nisn:$('student-nisn').value.trim(),student_name:$('student-name').value.trim(),student_class:$('student-class').value,student_absence_number:$('student-absence').value.trim()};
+    const existing=backendRecords.find(r=>r.record_type==='student'&&String(r.student_nisn||'').trim()===record.student_nisn);
+    if(existing&&!existing.__backendId){notice('NISN tersebut sudah digunakan. Data belum dapat diedit karena barisnya belum tersedia.');return;}
+    button.disabled=true;
+    try{
+      let result;
+      if(existing) result=await window.dataSdk.update({...existing,...record});
+      else {if(limit())return;result=await window.dataSdk.create(record);}
+      if(!result.isOk){notice(existing?'Data siswa gagal diperbarui. Periksa Canva Sheet lalu coba lagi.':'Data siswa gagal disimpan. Periksa Canva Sheet lalu coba lagi.');return;}
+      if(existing) backendRecords=backendRecords.map(r=>r.__backendId===existing.__backendId?{...r,...record}:r);
+      else backendRecords=[...backendRecords,{...record,id:'pending-student-'+Date.now()}];
+      renderStudents();
+      form.reset();
+      notice(existing?'Data siswa berhasil diperbarui.':'Siswa berhasil disimpan ke Canva Sheet dan ditambahkan ke tabel.');
+    }catch{notice(existing?'Data siswa gagal diperbarui. Periksa Canva Sheet lalu coba lagi.':'Data siswa gagal disimpan. Periksa Canva Sheet lalu coba lagi.');}
+    finally{button.disabled=false;}
+  });
+  /* original handler replaced below */
+  /*
+    event.preventDefault();const form=event.currentTarget;if(!form.reportValidity())return;
+    const ok=await createRecord({record_type:'student',student_nisn:$('student-nisn').value.trim(),student_name:$('student-name').value.trim(),student_class:$('student-class').value,student_absence_number:$('student-absence').value.trim()},event.submitter);
+    if(ok){form.reset();notice('Siswa disimpan ke Canva Sheet. Identitas siswa tersimpan tidak dapat ditampilkan kembali pada halaman ini.');}
+  });*/
+  $('teacher-form').addEventListener('submit',async event=>{
+    event.preventDefault();const form=event.currentTarget;if(!form.reportValidity())return;
+    if(await createRecord({record_type:'teacher',teacher_name:$('teacher-name').value.trim(),subject_name:$('teacher-subject').value.trim()},event.submitter))form.reset();
+  });
+  $('schedule-form').addEventListener('submit',async event=>{
+    event.preventDefault();
+    const form=event.currentTarget;
+    if(!form.reportValidity())return;
+    const button=event.submitter;
+    const subject=$('schedule-subject').value;
+    const scheduleClass=$('schedule-class').value;
+    const date=$('schedule-date').value;
+    const session=$('schedule-session').value;
+    const start=$('schedule-start').value;
+    const end=$('schedule-end').value;
+    const examUrl=$('schedule-exam-url').value.trim();
+    if(examUrl&&!/^https:\/\//i.test(examUrl)){notice('Link ujian harus menggunakan alamat HTTPS yang valid.');return;}
+    if(!subject||!scheduleClass||!date||!session||!start||!end){notice('Lengkapi kelas, mata pelajaran, tanggal, jam, dan sesi terlebih dahulu.');return;}
+    if(end<=start){notice('Jam selesai harus setelah jam mulai.');return;}
+    if(!loaded){notice('Canva Sheet belum tersedia. Muat ulang data sebelum menyimpan jadwal.');return;}
+    const scheduleId=`SCH-${Date.now()}-${Math.random().toString(36).slice(2,7).toUpperCase()}`;
+    const record={record_type:'schedule',schedule_id:scheduleId,schedule_class:scheduleClass,subject_name:subject,schedule_date:date,schedule_start:start,schedule_end:end,schedule_session:session,schedule_open:true,schedule_status:'Mendatang',schedule_created_at:new Date().toISOString(),schedule_exam_url:examUrl};
+    button.disabled=true;
+    button.setAttribute('aria-busy','true');
+    notice('Menyimpan jadwal ke Canva Sheet…');
+    try{
+      if(limit())return;
+      const result=await window.dataSdk.create(record);
+      if(!result.isOk){notice('Jadwal gagal disimpan. Canva Sheet belum mengonfirmasi penulisan. Periksa koneksi lalu coba lagi.');return;}
+      form.reset();
+      notice('Jadwal tersimpan. Memuat ulang daftar jadwal dari Canva Sheet…');
+      await initialize();
+      renderSchedules();
+      renderStudent();
+      notice('Jadwal tersimpan dan langsung ditampilkan pada Daftar Jadwal.');
+    }catch{notice('Jadwal gagal disimpan karena Canva Sheet belum tersedia. Coba muat ulang data lalu ulangi.');}
+    finally{button.disabled=false;button.removeAttribute('aria-busy');}
+  });
+  function downloadCsv(filename,rows){
+    const csv='\uFEFF'+rows.map(row=>row.map(value=>'"'+String(value).replaceAll('"','""')+'"').join(',')).join('\r\n');
+    const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+    const link=document.createElement('a');link.href=url;link.download=filename;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  $('student-template').addEventListener('click',()=>downloadCsv('template-siswa.csv',[['student_nisn','student_name','student_class','student_absence_number'],['0012345680','Citra Lestari','7B','03']]));
+  $('teacher-template').addEventListener('click',()=>downloadCsv('template-guru-mapel.csv',[
+    ['teacher_name','subject_name'],
+    ['Istiqomah, S. Pd. I, M. Pd.','Etika Syariah Islam'],
+    ['Ika Yuli Setyaningrum, S. Psi','Kewirausahaan'],
+    ['Ika Yuli Setyaningrum, S. Psi','Seni Budaya & Prakarya'],
+    ['Sumiyatun, S. Pd','Matematika'],
+    ['Sumiyatun, S. Pd','Bahasa Jawa'],
+    ["Ma'rifah Auliyanto, S. Pd",'Bahasa Inggris'],
+    ['Arif Khakim, S. Pd','PAI-BP'],
+    ['Arif Khakim, S. Pd','Bahasa Arab'],
+    ['Najwatus Suffa, AH','BTA Tahfidz'],
+    ['Diah Ayu Puspitasari, SKM','Sains'],
+    ['Arif Setawan, S. Pd','PJOK'],
+    ['Muhammad Ali Ilzam','Informatika'],
+    ['Bidayatul Ilmi, S. E.','Bahasa Indonesia'],
+    ['Nabil Akila, S. Pd.','IPA'],
+    ['Novita Saadatul Hidayah, SE. I','IPS'],
+    ['Novita Saadatul Hidayah, SE. I','Pendidikan Pancasila']
+  ]));
+  function parseCsv(text){
+    const rows=[],row=[];let value='',quoted=false;
+    for(let i=0;i<text.length;i++){
+      const c=text[i];
+      if(c==='"'){if(quoted&&text[i+1]==='"'){value+='"';i++;}else quoted=!quoted;}
+      else if(c===','&&!quoted){row.push(value.trim());value='';}
+      else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&text[i+1]==='\n')i++;row.push(value.trim());value='';if(row.some(Boolean))rows.push([...row]);row.length=0;}
+      else value+=c;
+    }
+    if(quoted)throw new Error('Tanda kutip CSV belum ditutup.');
+    row.push(value.trim());if(row.some(Boolean))rows.push(row);return rows;
+  }
+  async function importCsv(kind,button){
+    const input=$(kind==='student'?'student-csv':'teacher-csv'),file=input.files[0];
+    if(!file){notice('Pilih berkas CSV terlebih dahulu.');return;}
+    if(!/\.csv$/i.test(file.name)||file.size>1000000){notice('Gunakan berkas .csv berukuran maksimal 1 MB.');return;}
+    if(!loaded){notice('Tunggu Canva Sheet selesai dimuat.');return;}
+    let rows;
+    try{rows=parseCsv((await file.text()).replace(/^\uFEFF/,''));}catch(error){notice(error.message);return;}
+    const headers=kind==='student'?['student_nisn','student_name','student_class','student_absence_number']:['teacher_name','subject_name'];
+    if(!rows.length||headers.some((header,i)=>rows[0][i]!==header)){notice('Header CSV tidak sesuai template.');return;}
+    const values=rows.slice(1);if(!values.length){notice('CSV tidak memiliki baris data.');return;}
+    if(values.length>50){notice('Impor maksimal 50 baris sekali proses.');return;}
+    let saved=0;
+    button.disabled=true;
+    try{
+      for(const fields of values){
+        if(backendRecords.length+saved>=999){notice(`Batas Canva Sheet tercapai setelah ${saved} baris. Hentikan impor.`);return;}
+        const valid=kind==='student'
+          ?fields.length===4&&/^\d{10}$/.test(fields[0])&&!!fields[1]&&/^[789][A-Z]$/.test(fields[2])&&/^\d{1,3}$/.test(fields[3])
+          :fields.length===2&&fields.every(Boolean);
+        if(!valid){notice(`Baris ${saved+2} tidak valid. ${saved} baris sebelumnya berhasil disimpan.`);return;}
+        const record={record_type:kind};
+        headers.forEach((key,i)=>record[key]=fields[i]);
+        const result=await window.dataSdk.create(record);
+        if(!result.isOk){notice(`${saved} baris berhasil disimpan; penyimpanan berikutnya tidak dapat dikonfirmasi. Periksa Canva Sheet sebelum mengulangi impor.`);return;}
+        saved++;
+        await new Promise(resolve=>setTimeout(resolve,550));
+      }
+      notice(`${saved} baris CSV berhasil disimpan ke Canva Sheet.${kind==='student'?' Identitas siswa tersimpan tidak dapat ditampilkan kembali di halaman ini.':''}`);
+      input.value='';
+    }catch{notice(`${saved} baris berhasil disimpan; proses berikutnya tidak dapat dikonfirmasi. Periksa Canva Sheet sebelum mengulangi impor.`);}
+    finally{button.disabled=false;}
+  }
+  $('import-students').addEventListener('click',event=>importCsv('student',event.currentTarget));
+  $('import-teachers').addEventListener('click',event=>importCsv('teacher',event.currentTarget));
+  $('print-poster').addEventListener('click',()=>window.print());
+  render();initialize();setInterval(()=>{renderSchedules();renderStudent();},30000);
+})();
+</script>
+ 
+</body></html>

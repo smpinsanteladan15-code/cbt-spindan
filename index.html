@@ -1,44 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CBT Spindan</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #f4f6f9; }
-        .card { background: white; padding: 30px; border-radius: 8px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
-        p { color: #666; }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h1>Portal Ujian Online CBT</h1>
-        <p id="status">Menghubungkan ke database Firebase...</p>
-    </div>
-
-    <!-- Script Koneksi Firebase -->
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-        import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
-
-        // Konfigurasi Firebase dari akun Anda
-        const firebaseConfig = {
-          apiKey: "AIzaSyCXwtBUXpny7kdfliMtohM8bcVrRFCb6bM",
-          authDomain: "cbt-spindan.firebaseapp.com",
-          projectId: "cbt-spindan",
-          storageBucket: "cbt-spindan.firebasestorage.app",
-          messagingSenderId: "1041505788841",
-          appId: "1:1041505788841:web:e4d4e929a9e2f41ddd5ab8",
-          measurementId: "G-2X3RP95Q8M"
-        };
-
-        // Inisialisasi Firebase
-        const app = initializeApp(firebaseConfig);
-        const db = getFirestore(app);
-
-        document.getElementById("status").innerText = "Berhasil Terhubung ke Firebase Database!";
-        document.getElementById("status").style.color = "green";
-    </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal CBT — SMP Insan Teladan</title>
+    <meta name="description" content="Sistem CBT Mandiri Sekolah SMP Insan Teladan untuk ujian siswa dan panel kontrol guru terpisah." />
+    <meta property="og:title" content="Portal CBT — SMP Insan Teladan" />
+    <meta property="og:description" content="Sistem CBT Mandiri Sekolah SMP Insan Teladan untuk ujian siswa dan panel kontrol guru terpisah." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#f4f6f9] text-[#17364e] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

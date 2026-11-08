@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Portal CBT — SMP Insan Teladan",
+  "description": "Sistem CBT Mandiri Sekolah SMP Insan Teladan untuk ujian siswa dan panel kontrol guru terpisah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
