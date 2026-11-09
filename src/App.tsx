@@ -35,6 +35,32 @@ import {
 } from './services/googleSheets';
 
 export default function App() {
+  import { useState, useEffect, useRef } from 'react';
+import { User } from 'firebase/auth';
+import { MainView, GuruTab, ScheduleItem, StudentItem, TeacherItem, GoogleSheetsConfig } from './types/cbt';
+import { getNowWib, WibTimeInfo, DEFAULT_CBT_EXIT_TOKEN, fetchBackendExitToken, updateBackendExitToken, syncTeachersToBackend, syncStudentsToBackend, fetchBackendSchedules, syncSchedulesToBackend, } from './utils/cbtLogic';
+import { loadSchedules, saveSchedules, loadTeachers, saveTeachers, loadStudents, saveStudents, DEFAULT_SCHEDULES, DEFAULT_TEACHERS, DEFAULT_STUDENTS, } from './data/defaultData';
+import { HomeView } from './components/home/HomeView';
+import { StudentView } from './components/student/StudentView';
+import { GuruLayout } from './components/guru/GuruLayout';
+import { initAuth, googleSignIn, logoutGoogle, subscribeAuth } from './services/googleAuth';
+import { createCbtSpreadsheet, syncAllExamResultsToSheet, syncAllMonitoringToSheet, getSpreadsheetDetails, } from './services/googleSheets';
+
+// ==========================================
+// TARUH KODE FIREBASE DI SINI (DI LUAR FUNGSI APP)
+// ==========================================
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import firebaseConfig from '../firebase-applet-config.json';
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+// ==========================================
+
+export default function App() {
+  // Navigation State
+  const [currentView, setCurrentView] = useState<MainView>('home');
+  // ... (lanjutan kode aslinya ke bawah)
   // Navigation State
   const [currentView, setCurrentView] = useState<MainView>('home');
   const [initialGuruTab, setInitialGuruTab] = useState<GuruTab>('dashboard');
