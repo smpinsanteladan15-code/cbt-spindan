@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { User } from 'firebase/auth';
 import { MainView, GuruTab, ScheduleItem, StudentItem, TeacherItem, GoogleSheetsConfig } from './types/cbt';
-import { getNowWib, WibTimeInfo, DEFAULT_CBT_EXIT_TOKEN, fetchBackendExitToken, updateBackendExitToken, syncTeachersToBackend, syncStudentsToBackend, fetchBackendSchedules, syncSchedulesToBackend } from './utils/cbtLogic';
+import { getNowWib, WibTimeInfo, DEFAULT_CBT_EXIT_TOKEN, fetchBackendExitToken, updateBackendExitToken } from './utils/cbtLogic';
 import { loadSchedules, saveSchedules, loadTeachers, saveTeachers, loadStudents, saveStudents, DEFAULT_SCHEDULES, DEFAULT_TEACHERS, DEFAULT_STUDENTS } from './data/defaultData';
 import { HomeView } from './components/home/HomeView';
 import { StudentView } from './components/student/StudentView';
@@ -10,10 +10,10 @@ import { initAuth, googleSignIn, logoutGoogle, subscribeAuth } from './services/
 import { createCbtSpreadsheet, syncAllExamResultsToSheet, syncAllMonitoringToSheet, getSpreadsheetDetails } from './services/googleSheets';
 
 // ==========================================
-// INISIALISASI FIREBASE & ANALYTICS
+// INISIALISASI FIREBASE & FIRESTORE
 // ==========================================
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 import firebaseConfig from '../firebase-applet-config.json';
 
@@ -46,13 +46,71 @@ export default function App() {
   const [teachers, setTeachers] = useState<TeacherItem[]>(() => loadTeachers());
   const [students, setStudents] = useState<StudentItem[]>(() => loadStudents());
 
-  // Ref to avoid echo sync loops when updating from backend
-  const skipNextBackendSyncRef = useRef<boolean>(false);
+  const skipNextSyncRef = useRef<boolean>(false);
 
   // CBT Exit Token state
   const [exitToken, setExitToken] = useState<string>(() => {
     return localStorage.getItem('cbt_exit_token') || DEFAULT_CBT_EXIT_TOKEN;
   });
+
+  // Load Data from Firestore on mount
+  useEffect(() => {
+    const fetchCloudData = async () => {
+      try {
+        // Fetch Schedules
+        const schedSnap = await getDocs(collection(db, 'schedules'));
+        if (!schedSnap.empty) {
+          const cloudSchedules = schedSnap.docs.map(doc => doc.data() as ScheduleItem);
+          setSchedules(cloudSchedules);
+          saveSchedules(cloudSchedules);
+        }
+
+        // Fetch Teachers
+        const teachSnap = await getDocs(collection(db, 'teachers'));
+        if (!teachSnap.empty) {
+          const cloudTeachers = teachSnap.docs.map(doc => doc.data() as TeacherItem);
+          setTeachers(cloudTeachers);
+          saveTeachers(cloudTeachers);
+        }
+
+        // Fetch Students
+        const studSnap = await getDocs(collection(db, 'students'));
+        if (!studSnap.empty) {
+          const cloudStudents = studSnap.docs.map(doc => doc.data() as StudentItem);
+          setStudents(cloudStudents);
+          saveStudents(cloudStudents);
+        }
+      } catch (err) {
+        console.warn('Error fetching from Firestore:', err);
+      }
+    };
+
+    fetchCloudData();
+  }, []);
+
+  // Real-time polling / synchronization from Firestore
+  useEffect(() => {
+    const syncCloudData = async () => {
+      try {
+        const schedSnap = await getDocs(collection(db, 'schedules'));
+        if (!schedSnap.empty) {
+          const cloudSchedules = schedSnap.docs.map(doc => doc.data() as ScheduleItem);
+          setSchedules(prev => {
+            if (JSON.stringify(prev) !== JSON.stringify(cloudSchedules)) {
+              saveSchedules(cloudSchedules);
+              return cloudSchedules;
+            }
+            return prev;
+          });
+        }
+      } catch (err) {
+        console.warn('Realtime cloud sync error:', err);
+      }
+    };
+
+    const interval = setInterval(syncCloudData, 5000);
+    return () => clearInterval(interval);
+  }, []);
 
   // Fetch token from backend on mount
   useEffect(() => {
@@ -62,47 +120,6 @@ export default function App() {
         localStorage.setItem('cbt_exit_token', token);
       }
     });
-  }, []);
-
-  // Fetch schedules from backend on initial mount
-  useEffect(() => {
-    fetchBackendSchedules().then((backendSchedules) => {
-      if (backendSchedules && Array.isArray(backendSchedules) && backendSchedules.length > 0) {
-        skipNextBackendSyncRef.current = true;
-        setSchedules(backendSchedules);
-        saveSchedules(backendSchedules);
-      }
-    });
-  }, []);
-
-  // Real-time synchronization polling for schedules
-  useEffect(() => {
-    const syncSchedules = async () => {
-      try {
-        const backendSchedules = await fetchBackendSchedules();
-        if (backendSchedules && Array.isArray(backendSchedules)) {
-          setSchedules((prev) => {
-            const prevStr = JSON.stringify(prev);
-            const nextStr = JSON.stringify(backendSchedules);
-            if (prevStr !== nextStr) {
-              skipNextBackendSyncRef.current = true;
-              saveSchedules(backendSchedules);
-              return backendSchedules;
-            }
-            return prev;
-          });
-        }
-      } catch (err) {
-        console.warn('Realtime schedule sync error:', err);
-      }
-    };
-
-    const interval = setInterval(syncSchedules, 4000);
-    window.addEventListener('focus', syncSchedules);
-    return () => {
-      clearInterval(interval);
-      window.removeEventListener('focus', syncSchedules);
-    };
   }, []);
 
   const handleUpdateExitToken = (newToken: string) => {
@@ -169,131 +186,138 @@ export default function App() {
     return () => clearInterval(timer);
   }, []);
 
-  // Sync to localStorage and write directly to disk database files
-  useEffect(() => {
-    saveSchedules(schedules);
-    if (skipNextBackendSyncRef.current) {
-      skipNextBackendSyncRef.current = false;
-      return;
-    }
-    syncSchedulesToBackend(schedules);
-  }, [schedules]);
-
-  useEffect(() => {
-    saveTeachers(teachers);
-    syncTeachersToBackend(teachers);
-  }, [teachers]);
-
-  useEffect(() => {
-    saveStudents(students);
-    syncStudentsToBackend(students);
-  }, [students]);
-
-  // Schedule Actions
-  const handleSaveSchedule = (newSchedule: Omit<ScheduleItem, 'id'>) => {
+  // Schedule Actions with Firestore Sync
+  const handleSaveSchedule = async (newSchedule: Omit<ScheduleItem, 'id'>) => {
     const id = `SCH-${Date.now()}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`;
-    setSchedules((prev) => {
-      const updated = [...prev, { ...newSchedule, id }];
-      syncSchedulesToBackend(updated);
-      return updated;
-    });
+    const item: ScheduleItem = { ...newSchedule, id };
+    try {
+      await setDoc(doc(db, 'schedules', id), item);
+      setSchedules((prev) => [...prev, item]);
+      saveSchedules([...schedules, item]);
+    } catch (e) {
+      console.error('Failed to save schedule to Firestore:', e);
+    }
   };
 
-  const handleUpdateExamUrl = (id: string, url: string) => {
-    setSchedules((prev) => {
-      const updated = prev.map((s) => (s.id === id ? { ...s, schedule_exam_url: url } : s));
-      syncSchedulesToBackend(updated);
-      return updated;
-    });
+  const handleUpdateExamUrl = async (id: string, url: string) => {
+    try {
+      const target = schedules.find(s => s.id === id);
+      if (target) {
+        const updatedItem = { ...target, schedule_exam_url: url };
+        await setDoc(doc(db, 'schedules', id), updatedItem);
+        setSchedules((prev) => prev.map((s) => (s.id === id ? updatedItem : s)));
+      }
+    } catch (e) {
+      console.error('Failed to update exam URL in Firestore:', e);
+    }
   };
 
-  const handleDeleteSchedule = (id: string) => {
-    setSchedules((prev) => {
-      const updated = prev.filter((s) => s.id !== id);
-      syncSchedulesToBackend(updated);
-      return updated;
-    });
+  const handleDeleteSchedule = async (id: string) => {
+    try {
+      await deleteDoc(doc(db, 'schedules', id));
+      setSchedules((prev) => prev.filter((s) => s.id !== id));
+    } catch (e) {
+      console.error('Failed to delete schedule from Firestore:', e);
+    }
   };
 
-  // Student Actions
-  const handleSaveStudent = (newStudent: Omit<StudentItem, 'id'>) => {
+  // Student Actions with Firestore Sync
+  const handleSaveStudent = async (newStudent: Omit<StudentItem, 'id'>) => {
     const id = `STD-${Date.now()}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`;
-    setStudents((prev) => {
-      const existing = prev.find((s) => s.student_nisn === newStudent.student_nisn);
-      if (existing) {
-        return prev.map((s) => (s.student_nisn === newStudent.student_nisn ? { ...newStudent, id: existing.id } : s));
-      }
-      return [...prev, { ...newStudent, id }];
-    });
-  };
+    const existing = students.find((s) => s.student_nisn === newStudent.student_nisn);
+    const studentId = existing ? existing.id : id;
+    const item: StudentItem = { ...newStudent, id: studentId };
 
-  const handleDeleteStudent = (id: string) => {
-    setStudents((prev) => prev.filter((s) => s.id !== id));
-  };
-
-  const handleBatchImportStudents = (imported: Omit<StudentItem, 'id'>[]) => {
-    setStudents((prev) => {
-      const updated = [...prev];
-      for (const item of imported) {
-        const idx = updated.findIndex((s) => s.student_nisn === item.student_nisn);
-        if (idx >= 0) {
-          updated[idx] = { ...item, id: updated[idx].id };
-        } else {
-          updated.push({
-            ...item,
-            id: `STD-${Date.now()}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`,
-          });
+    try {
+      await setDoc(doc(db, 'students', studentId), item);
+      setStudents((prev) => {
+        if (existing) {
+          return prev.map((s) => (s.student_nisn === newStudent.student_nisn ? item : s));
         }
+        return [...prev, item];
+      });
+    } catch (e) {
+      console.error('Failed to save student to Firestore:', e);
+    }
+  };
+
+  const handleDeleteStudent = async (id: string) => {
+    try {
+      await deleteDoc(doc(db, 'students', id));
+      setStudents((prev) => prev.filter((s) => s.id !== id));
+    } catch (e) {
+      console.error('Failed to delete student from Firestore:', e);
+    }
+  };
+
+  const handleBatchImportStudents = async (imported: Omit<StudentItem, 'id'>[]) => {
+    try {
+      for (const itemData of imported) {
+        const id = `STD-${Date.now()}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`;
+        const item: StudentItem = { ...itemData, id };
+        await setDoc(doc(db, 'students', id), item);
       }
-      return updated;
-    });
+      // Refresh students
+      const studSnap = await getDocs(collection(db, 'students'));
+      if (!studSnap.empty) {
+        const cloudStudents = studSnap.docs.map(doc => doc.data() as StudentItem);
+        setStudents(cloudStudents);
+      }
+    } catch (e) {
+      console.error('Batch import students error:', e);
+    }
   };
 
-  // Teacher Actions
-  const handleSaveTeacher = (newTeacher: Omit<TeacherItem, 'id'>) => {
+  // Teacher Actions with Firestore Sync
+  const handleSaveTeacher = async (newTeacher: Omit<TeacherItem, 'id'>) => {
     const id = `TCH-${Date.now()}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`;
-    setTeachers((prev) => [...prev, { ...newTeacher, id }]);
+    const item: TeacherItem = { ...newTeacher, id };
+    try {
+      await setDoc(doc(db, 'teachers', id), item);
+      setTeachers((prev) => [...prev, item]);
+    } catch (e) {
+      console.error('Failed to save teacher to Firestore:', e);
+    }
   };
 
-  const handleDeleteTeacher = (id: string) => {
-    setTeachers((prev) => prev.filter((t) => t.id !== id));
+  const handleDeleteTeacher = async (id: string) => {
+    try {
+      await deleteDoc(doc(db, 'teachers', id));
+      setTeachers((prev) => prev.filter((t) => t.id !== id));
+    } catch (e) {
+      console.error('Failed to delete teacher from Firestore:', e);
+    }
   };
 
-  const handleBatchImportTeachers = (imported: Omit<TeacherItem, 'id'>[]) => {
-    setTeachers((prev) => {
-      const newItems = imported.map((item) => ({
-        ...item,
-        id: `TCH-${Date.now()}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`,
-      }));
-      return [...prev, ...newItems];
-    });
+  const handleBatchImportTeachers = async (imported: Omit<TeacherItem, 'id'>[]) => {
+    try {
+      for (const itemData of imported) {
+        const id = `TCH-${Date.now()}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`;
+        const item: TeacherItem = { ...itemData, id };
+        await setDoc(doc(db, 'teachers', id), item);
+      }
+      const teachSnap = await getDocs(collection(db, 'teachers'));
+      if (!teachSnap.empty) {
+        const cloudTeachers = teachSnap.docs.map(doc => doc.data() as TeacherItem);
+        setTeachers(cloudTeachers);
+      }
+    } catch (e) {
+      console.error('Batch import teachers error:', e);
+    }
   };
 
   const handleSyncTeachers = (synced: Omit<TeacherItem, 'id'>[]) => {
-    setTeachers(
-      synced.map((item, idx) => ({
-        ...item,
-        id: `TCH-SYNC-${idx + 1}-${Date.now().toString(36)}`,
-      }))
-    );
+    handleBatchImportTeachers(synced);
   };
 
   const handleSyncStudents = (synced: Omit<StudentItem, 'id'>[]) => {
-    setStudents(
-      synced.map((item, idx) => ({
-        ...item,
-        id: `STD-SYNC-${idx + 1}-${Date.now().toString(36)}`,
-      }))
-    );
+    handleBatchImportStudents(synced);
   };
 
-  const handleResetData = () => {
+  const handleResetData = async () => {
     setSchedules(DEFAULT_SCHEDULES);
-    syncSchedulesToBackend(DEFAULT_SCHEDULES);
     setTeachers(DEFAULT_TEACHERS);
-    syncTeachersToBackend(DEFAULT_TEACHERS);
     setStudents(DEFAULT_STUDENTS);
-    syncStudentsToBackend(DEFAULT_STUDENTS);
   };
 
   // Google Sheets Action Handlers
