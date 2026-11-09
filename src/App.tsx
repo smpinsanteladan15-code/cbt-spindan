@@ -1,13 +1,11 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { User } from 'firebase/auth';
 import { MainView, GuruTab, ScheduleItem, StudentItem, TeacherItem, GoogleSheetsConfig } from './types/cbt';
-import { getNowWib, WibTimeInfo, DEFAULT_CBT_EXIT_TOKEN, fetchBackendExitToken, updateBackendExitToken, syncTeachersToBackend, syncStudentsToBackend, fetchBackendSchedules, syncSchedulesToBackend } from './utils/cbtLogic';
-import { loadSchedules, saveSchedules, loadTeachers, saveTeachers, loadStudents, saveStudents, DEFAULT_SCHEDULES, DEFAULT_TEACHERS, DEFAULT_STUDENTS } from './data/defaultData';
+import { getNowWib, WibTimeInfo } from './utils/cbtLogic';
+import { loadSchedules, loadTeachers, loadStudents } from './data/defaultData';
 import { HomeView } from './components/home/HomeView';
 import { StudentView } from './components/student/StudentView';
 import { GuruLayout } from './components/guru/GuruLayout';
-import { initAuth, googleSignIn, logoutGoogle, subscribeAuth } from './services/googleAuth';
-import { createCbtSpreadsheet, syncAllExamResultsToSheet, syncAllMonitoringToSheet, getSpreadsheetDetails } from './services/googleSheets';
 
 export default function App() {
   // Navigation State
@@ -32,6 +30,13 @@ export default function App() {
   const [schedules, setSchedules] = useState<ScheduleItem[]>(() => loadSchedules());
   const [teachers, setTeachers] = useState<TeacherItem[]>(() => loadTeachers());
   const [students, setStudents] = useState<StudentItem[]>(() => loadStudents());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentTime(getNowWib());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans">
