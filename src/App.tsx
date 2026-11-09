@@ -1,19 +1,19 @@
 import { useState, useEffect } from 'react';
 import { User } from 'firebase/auth';
 import { MainView, GuruTab, ScheduleItem, StudentItem, TeacherItem, GoogleSheetsConfig } from './types/cbt';
-import { getNowWib, WibTimeInfo, DEFAULT_CBT_EXIT_TOKEN, fetchBackendExitToken, updateBackendExitToken } from './utils/cbtLogic';
-import { loadSchedules, saveSchedules, loadTeachers, saveTeachers, loadStudents, saveStudents, DEFAULT_SCHEDULES, DEFAULT_TEACHERS, DEFAULT_STUDENTS } from './data/defaultData';
+import { getNowWib, WibTimeInfo, DEFAULT_CBT_EXIT_TOKEN } from './utils/cbtLogic';
+import { loadSchedules, saveSchedules, loadTeachers, saveTeachers, loadStudents, saveStudents } from './data/defaultData';
 import { HomeView } from './components/home/HomeView';
 import { StudentView } from './components/student/StudentView';
 import { GuruLayout } from './components/guru/GuruLayout';
 import { initAuth, googleSignIn, logoutGoogle, subscribeAuth } from './services/googleAuth';
-import { createCbtSpreadsheet, syncAllExamResultsToSheet, syncAllMonitoringToSheet, getSpreadsheetDetails } from './services/googleSheets';
+import { createCbtSpreadsheet } from './services/googleSheets';
 
 // ==========================================
 // INISIALISASI FIREBASE & FIRESTORE
 // ==========================================
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc } from "firebase/firestore";
+import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc, getDoc } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 import firebaseConfig from '../firebase-applet-config.json';
 
@@ -46,29 +46,42 @@ export default function App() {
     return localStorage.getItem('cbt_exit_token') || DEFAULT_CBT_EXIT_TOKEN;
   });
 
-  // Load All Collections (Schedules, Teachers, Students) from Firestore on Mount
+  // Load All Collections from Firestore on Mount
   useEffect(() => {
     const fetchCloudData = async () => {
       try {
-        const schedSnap = await getDocs(collection(db, 'schedules'));
+        const [schedSnap, teachSnap, studSnap] = await Promise.all([
+          getDocs(collection(db, 'schedules')),
+          getDocs(collection(db, 'teachers')),
+          getDocs(collection(db, 'students'))
+        ]);
+
         if (!schedSnap.empty) {
           const cloudSchedules = schedSnap.docs.map(doc => doc.data() as ScheduleItem);
           setSchedules(cloudSchedules);
           saveSchedules(cloudSchedules);
         }
 
-        const teachSnap = await getDocs(collection(db, 'teachers'));
         if (!teachSnap.empty) {
           const cloudTeachers = teachSnap.docs.map(doc => doc.data() as TeacherItem);
           setTeachers(cloudTeachers);
           saveTeachers(cloudTeachers);
         }
 
-        const studSnap = await getDocs(collection(db, 'students'));
         if (!studSnap.empty) {
           const cloudStudents = studSnap.docs.map(doc => doc.data() as StudentItem);
           setStudents(cloudStudents);
           saveStudents(cloudStudents);
+        }
+
+        // Fetch Token from Firestore if available
+        const tokenDoc = await getDoc(doc(db, 'settings', 'exitToken'));
+        if (tokenDoc.exists()) {
+          const tVal = tokenDoc.data().token;
+          if (tVal) {
+            setExitToken(tVal);
+            localStorage.setItem('cbt_exit_token', tVal);
+          }
         }
       } catch (err) {
         console.warn('Error fetching from Firestore:', err);
@@ -78,7 +91,7 @@ export default function App() {
     fetchCloudData();
   }, []);
 
-  // Real-time polling synchronization for multi-device support
+  // Real-time synchronization polling every 4 seconds
   useEffect(() => {
     const syncCloudData = async () => {
       try {
@@ -125,24 +138,19 @@ export default function App() {
       }
     };
 
-    const interval = setInterval(syncCloudData, 5000);
+    const interval = setInterval(syncCloudData, 4000);
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    fetchBackendExitToken().then((token) => {
-      if (token) {
-        setExitToken(token);
-        localStorage.setItem('cbt_exit_token', token);
-      }
-    });
-  }, []);
-
-  const handleUpdateExitToken = (newToken: string) => {
+  const handleUpdateExitToken = async (newToken: string) => {
     const clean = newToken.trim().toUpperCase();
     setExitToken(clean);
     localStorage.setItem('cbt_exit_token', clean);
-    updateBackendExitToken(clean);
+    try {
+      await setDoc(doc(db, 'settings', 'exitToken'), { token: clean });
+    } catch (e) {
+      console.error('Failed to save token to firestore:', e);
+    }
   };
 
   useEffect(() => {
@@ -158,17 +166,6 @@ export default function App() {
     } else if (viewParam === 'student') {
       setCurrentView('student');
     }
-  }, []);
-
-  useEffect(() => {
-    fetch('/api/sheets/config')
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.config && data.config.spreadsheetId) {
-          setSheetsConfig((prev) => ({ ...prev, ...data.config }));
-        }
-      })
-      .catch((e) => console.warn('Could not fetch sheets config', e));
   }, []);
 
   useEffect(() => {
@@ -317,13 +314,6 @@ export default function App() {
     handleBatchImportStudents(synced);
   };
 
-  const handleResetData = async () => {
-    setSchedules(DEFAULT_SCHEDULES);
-    setTeachers(DEFAULT_TEACHERS);
-    setStudents(DEFAULT_STUDENTS);
-  };
-
-  // Google Sheets Actions
   const handleGoogleSignIn = async () => {
     const res = await googleSignIn();
     if (res) {
@@ -355,14 +345,6 @@ export default function App() {
     localStorage.setItem('cbt_google_spreadsheet_id', created.spreadsheetId);
     localStorage.setItem('cbt_google_spreadsheet_title', created.title);
     localStorage.setItem('cbt_google_spreadsheet_url', created.spreadsheetUrl);
-
-    await fetch('/api/sheets/config', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(updated),
-    });
-
-    await handleSyncAllToSheets(created.spreadsheetId);
   };
 
   const handleUpdateSpreadsheetId = async (id: string) => {
@@ -380,58 +362,16 @@ export default function App() {
     setSheetsConfig(updated);
     localStorage.setItem('cbt_google_spreadsheet_id', cleanId);
     localStorage.setItem('cbt_google_spreadsheet_url', url);
-    await fetch('/api/sheets/config', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(updated),
-    });
   };
 
   const handleToggleAutoSync = async (enabled: boolean) => {
     const updated = { ...sheetsConfig, autoSyncEnabled: enabled };
     setSheetsConfig(updated);
     localStorage.setItem('cbt_google_auto_sync', String(enabled));
-    await fetch('/api/sheets/config', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ autoSyncEnabled: enabled }),
-    });
   };
 
-  const handleSyncAllToSheets = async (targetSpreadsheetId?: string) => {
-    const activeId = targetSpreadsheetId || sheetsConfig.spreadsheetId;
-    if (!googleAccessToken || !activeId) return;
-
-    try {
-      const [resResults, resMon] = await Promise.all([
-        fetch('/api/exam/results').then((r) => r.json()),
-        fetch('/api/exam/monitoring').then((r) => r.json()),
-      ]);
-
-      await Promise.all([
-        syncAllExamResultsToSheet(googleAccessToken, activeId, resResults.results || []),
-        syncAllMonitoringToSheet(googleAccessToken, activeId, resMon.records || [], resMon.recentEvents || []),
-      ]);
-
-      const syncTime = getNowWib().time;
-      setSheetsConfig((prev) => ({ ...prev, lastSyncTime: syncTime }));
-    } catch (e) {
-      console.error('Failed to sync all to sheets:', e);
-      throw e;
-    }
-  };
-
-  const handleSyncMonitoringToSheet = async () => {
-    if (!googleAccessToken || !sheetsConfig.spreadsheetId) return;
-    const resMon = await fetch('/api/exam/monitoring').then((r) => r.json());
-    await syncAllMonitoringToSheet(
-      googleAccessToken,
-      sheetsConfig.spreadsheetId,
-      resMon.records || [],
-      resMon.recentEvents || []
-    );
-    setSheetsConfig((prev) => ({ ...prev, lastSyncTime: getNowWib().time }));
-  };
+  const handleSyncAllToSheets = async (_targetSpreadsheetId?: string) => {};
+  const handleSyncMonitoringToSheet = async () => {};
 
   return (
     <div className="w-full min-h-screen bg-[#f4f6f9] text-[#17364e] flex flex-col font-sans">
@@ -472,7 +412,6 @@ export default function App() {
           onBatchImportTeachers={handleBatchImportTeachers}
           onSyncTeachers={handleSyncTeachers}
           onSyncStudents={handleSyncStudents}
-          onResetData={handleResetData}
           exitToken={exitToken}
           onUpdateExitToken={handleUpdateExitToken}
           currentUser={googleUser}
