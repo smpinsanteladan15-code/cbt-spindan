@@ -429,7 +429,6 @@ app.post('/api/exam/enter-exam', (req, res) => {
     events: existing?.events || [],
   };
 
-  // If newly entering or was finished previously, add an entry log
   if (!existing || existing.status === 'Selesai') {
     const enterEvt: ServerViolationEvent = {
       id: `ENT-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
@@ -487,7 +486,6 @@ app.post('/api/exam/finish-exam', (req, res) => {
     }
     saveMonitoringData();
 
-    // Create or update result record
     const resultItem: ServerExamResult = {
       id: `RES-${nisn}-${Date.now()}`,
       student_nisn: rec.student_nisn,
@@ -518,7 +516,6 @@ app.post('/api/exam/finish-exam', (req, res) => {
 
 // GET /api/exam/results: Get all student exam results and summaries
 app.get('/api/exam/results', (req, res) => {
-  // Sync any active or finished records from monitoringData into examResults if missing
   const records = Object.values(monitoringData.records);
   for (const r of records) {
     if (!examResults[r.student_nisn]) {
@@ -541,7 +538,6 @@ app.get('/api/exam/results', (req, res) => {
         synced_to_sheets: false,
       };
     } else {
-      // update status & exit count
       examResults[r.student_nisn].status = r.status || examResults[r.student_nisn].status;
       examResults[r.student_nisn].exit_count = r.exit_count;
       if (r.status === 'Selesai') {
@@ -617,7 +613,6 @@ app.get('/api/exam/monitoring', (req, res) => {
   const totalActive = recordsList.filter((r) => r.status === 'Sedang Mengerjakan').length;
   const totalFinished = recordsList.filter((r) => r.status === 'Selesai').length;
 
-  // Extract lists of locked and warning students for immediate identification
   const lockedStudents = recordsList
     .filter((r) => r.is_locked || r.exit_count >= 5)
     .map((r) => ({
@@ -777,7 +772,6 @@ app.post('/api/exam/reset-student', (req, res) => {
   const { time, full_date } = getServerWibTime();
 
   if (reset_all) {
-    // Reset all students
     Object.keys(monitoringData.records).forEach((k) => {
       monitoringData.records[k].exit_count = 0;
       monitoringData.records[k].is_locked = false;
