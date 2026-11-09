@@ -50,7 +50,6 @@ export default function App() {
   useEffect(() => {
     const fetchCloudData = async () => {
       try {
-        // Schedules
         const schedSnap = await getDocs(collection(db, 'schedules'));
         if (!schedSnap.empty) {
           const cloudSchedules = schedSnap.docs.map(doc => doc.data() as ScheduleItem);
@@ -58,7 +57,6 @@ export default function App() {
           saveSchedules(cloudSchedules);
         }
 
-        // Teachers
         const teachSnap = await getDocs(collection(db, 'teachers'));
         if (!teachSnap.empty) {
           const cloudTeachers = teachSnap.docs.map(doc => doc.data() as TeacherItem);
@@ -66,7 +64,6 @@ export default function App() {
           saveTeachers(cloudTeachers);
         }
 
-        // Students
         const studSnap = await getDocs(collection(db, 'students'));
         if (!studSnap.empty) {
           const cloudStudents = studSnap.docs.map(doc => doc.data() as StudentItem);
