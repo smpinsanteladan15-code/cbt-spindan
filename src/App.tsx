@@ -46,8 +46,6 @@ export default function App() {
   const [teachers, setTeachers] = useState<TeacherItem[]>(() => loadTeachers());
   const [students, setStudents] = useState<StudentItem[]>(() => loadStudents());
 
-  const skipNextSyncRef = useRef<boolean>(false);
-
   // CBT Exit Token state
   const [exitToken, setExitToken] = useState<string>(() => {
     return localStorage.getItem('cbt_exit_token') || DEFAULT_CBT_EXIT_TOKEN;
@@ -257,7 +255,6 @@ export default function App() {
         const item: StudentItem = { ...itemData, id };
         await setDoc(doc(db, 'students', id), item);
       }
-      // Refresh students
       const studSnap = await getDocs(collection(db, 'students'));
       if (!studSnap.empty) {
         const cloudStudents = studSnap.docs.map(doc => doc.data() as StudentItem);
