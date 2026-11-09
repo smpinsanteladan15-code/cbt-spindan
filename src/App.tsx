@@ -10,14 +10,16 @@ import { initAuth, googleSignIn, logoutGoogle, subscribeAuth } from './services/
 import { createCbtSpreadsheet, syncAllExamResultsToSheet, syncAllMonitoringToSheet, getSpreadsheetDetails } from './services/googleSheets';
 
 // ==========================================
-// INISIALISASI FIREBASE
+// INISIALISASI FIREBASE & ANALYTICS
 // ==========================================
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
+import { getAnalytics } from "firebase/analytics";
 import firebaseConfig from '../firebase-applet-config.json';
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const analytics = getAnalytics(app);
 // ==========================================
 
 export default function App() {
